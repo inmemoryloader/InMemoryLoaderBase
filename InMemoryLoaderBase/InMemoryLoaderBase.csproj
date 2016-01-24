@@ -52,9 +52,17 @@ einmalig instanziiert.</Description>
     <Compile Include="IDynamicClassSetup.cs" />
     <Compile Include="DynamicClassInfo.cs" />
     <Compile Include="DynamicClassSetup.cs" />
+    <Compile Include="HelperEnum\StringDirection.cs" />
+    <Compile Include="HelperEnum\HashAlgorithmKind.cs" />
+    <Compile Include="HelperEnum\DateTimeAmPmType.cs" />
+    <Compile Include="HelperEnum\DateInterval.cs" />
+    <Compile Include="HelperEnum\FileCompareMethod.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="HelperEnum\" />
   </ItemGroup>
 </Project>
