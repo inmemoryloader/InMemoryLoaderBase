@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Reflection;
+using System.Reflection.Emit;
 
 namespace InMemoryLoaderBase
 {
@@ -17,6 +19,12 @@ namespace InMemoryLoaderBase
 		/// </summary>
 		/// <value>The class object.</value>
 		Object ClassObject { get; set;}
+		/// <summary>
+		/// Gets the methods.
+		/// </summary>
+		/// <value>The methods.</value>
+		MethodInfo[] Methods {
+			get;
+		}
 	}
 }
-

@@ -2,7 +2,9 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>InMemoryLoaderBase</id>
-        <version>0.0.6</version>
+
+        <version>0.0.9</version>
+
         <title>InMemoryLoaderBase</title>
         <authors>responsive kaysta</authors>
         <owners>responsive kaysta</owners>
@@ -11,7 +13,9 @@
         <description>InMemoryLoader ist eine in C# geschriebene Funktionsbibliothek welche das dynamische Laden von .NET Assemblies zur Laufzeit ermöglicht. Im Wesentlichen besteht sie aus zwei nuget-Packages die mit Mono entwickelt wurden und so über Plattformgrenzen hinweg verwendet werden können.
 InMemoryLoader ermöglicht das Laden von .Dll's zur Laufzeit ohne fixe Referenzen in der Solution zu benötigen. Hierbei werden die .Dll’s einmalig geladen und geprüft, in eine Collection geschrieben und zur Laufzeit einmalig instanziiert.</description>
         <summary>InMemoryLoader ist eine in C# geschriebene Funktionsbibliothek welche das dynamische Laden von .NET Assemblies zur Laufzeit ermöglicht.</summary>
-        <releaseNotes>New HelperEnum's: StringDirection, HashAlgorithmKind, DateTimeAmPmType, DateInterval, FileCompareMethod</releaseNotes>
-        <copyright>responsive kaysta</copyright>
+        
+<releaseNotes>Plastic surgery for getter Methods</releaseNotes>
+        
+<copyright>responsive kaysta</copyright>
     </metadata>
 </package>

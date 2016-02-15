@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Reflection;
+using System.Reflection.Emit;
 
 namespace InMemoryLoaderBase
 {
@@ -20,6 +22,7 @@ namespace InMemoryLoaderBase
 			get;
 			set;
 		}
+
 		/// <summary>
 		/// Gets or sets the class.
 		/// </summary>
@@ -28,6 +31,7 @@ namespace InMemoryLoaderBase
 			get;
 			set;
 		}
+
 		/// <summary>
 		/// Gets the init method.
 		/// </summary>
@@ -37,4 +41,3 @@ namespace InMemoryLoaderBase
 		}
 	}
 }
-

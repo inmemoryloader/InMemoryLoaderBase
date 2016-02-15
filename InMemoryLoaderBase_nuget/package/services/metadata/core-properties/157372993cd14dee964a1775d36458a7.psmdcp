@@ -7,7 +7,7 @@ InMemoryLoader ermöglicht das Laden von .Dll's zur Laufzeit ohne fixe Referenze
 Hierbei werden die .Dll’s einmalig geladen und geprüft, in eine Collection geschrieben und zur Laufzeit einmalig instanziiert.</dc:description>
 <dc:identifier>InMemoryLoaderBase</dc:identifier>
 
-<version>0.0.6</version>
+<version>0.0.9</version>
 
 <keywords />
 <dc:title>InMemoryLoaderBase</dc:title>
