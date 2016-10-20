@@ -45,20 +45,21 @@ einmalig instanziiert.</Description>
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HelperEnum\DateInterval.cs" />
+    <Compile Include="HelperEnum\DateTimeAmPmType.cs" />
+    <Compile Include="HelperEnum\FileCompareMethod.cs" />
+    <Compile Include="HelperEnum\HashAlgorithmKind.cs" />
+    <Compile Include="HelperEnum\StringDirection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="AbstractComponent.cs" />
     <Compile Include="IDynamicClassInfo.cs" />
     <Compile Include="IDynamicClassSetup.cs" />
     <Compile Include="DynamicClassInfo.cs" />
     <Compile Include="DynamicClassSetup.cs" />
-    <Compile Include="HelperEnum\StringDirection.cs" />
-    <Compile Include="HelperEnum\HashAlgorithmKind.cs" />
-    <Compile Include="HelperEnum\DateTimeAmPmType.cs" />
-    <Compile Include="HelperEnum\DateInterval.cs" />
-    <Compile Include="HelperEnum\FileCompareMethod.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
+    <None Include="InMemoryLoaderBase.cd" />
     <None Include="packages.config" />
   </ItemGroup>
 </Project>
