@@ -18,7 +18,7 @@ InMemoryLoader ermöglicht das Laden von .Dll's zur Laufzeit ohne fixe
 Referenzen in der Solution zu benötigen. Hierbei werden die .Dll’s einmalig 
 geladen und geprüft, in eine Collection geschrieben und zur Laufzeit 
 einmalig instanziiert.</Description>
-    <ReleaseVersion>0.2</ReleaseVersion>
+    <ReleaseVersion>0.2.0</ReleaseVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
