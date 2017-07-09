@@ -29,6 +29,8 @@ einmalig instanziiert.</Description>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
+    <DocumentationFile>bin\Debug\InMemoryLoaderBase.xml</DocumentationFile>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>full</DebugType>
@@ -51,7 +53,7 @@ einmalig instanziiert.</Description>
     <Compile Include="HelperEnum\HashAlgorithmKind.cs" />
     <Compile Include="HelperEnum\StringDirection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="AbstractComponent.cs" />
+    <Compile Include="AbstractPowerUpComponent.cs" />
     <Compile Include="IDynamicClassInfo.cs" />
     <Compile Include="IDynamicClassSetup.cs" />
     <Compile Include="DynamicClassInfo.cs" />

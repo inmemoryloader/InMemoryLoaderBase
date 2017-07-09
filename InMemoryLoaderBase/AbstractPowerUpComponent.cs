@@ -1,8 +1,7 @@
 ﻿//
 // AbstractComponent.cs
 //
-// Author:
-//       Kay Stuckenschmidt <mailto.kaysta@gmail.com>
+// Author: Kay Stuckenschmidt <mailto.kaysta@gmail.com>
 //
 // Copyright (c) 2017 responsive-kaysta
 //
@@ -28,13 +27,21 @@ using System;
 
 namespace InMemoryLoaderBase
 {
-
+    /// <summary>
+    /// Wird zwingend benötigt um die Komponente korrekt registrieren zu können.
+    /// </summary>
     public abstract class AbstractPowerUpComponent
     {
-
+        /// <summary>
+		/// Fancy key to check in Init()
+        /// </summary>
         public const int Key = 0815;
 
-
+        /// <summary>
+        /// Init-Methode die zur Initialisierung benötigt wird
+        /// </summary>
+        /// <param name="paramArgument">Fancy key</param>
+        /// <returns>True or false....</returns>
         public bool Init(int paramArgument)
         {
             if (paramArgument.Equals(Key))
