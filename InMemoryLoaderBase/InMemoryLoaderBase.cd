@@ -4,73 +4,24 @@
     <Position X="0.5" Y="0.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
-      <FileName>AbstractComponent.cs</FileName>
+      <FileName>AbstractPowerUpComponent.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="InMemoryLoaderBase.DynamicClassInfo" BaseTypeListCollapsed="true">
-    <Position X="3.25" Y="2.75" Width="2.5" />
+    <Position X="5.75" Y="0.5" Width="2.5" />
     <TypeIdentifier>
       <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAABAEA=</HashCode>
       <FileName>DynamicClassInfo.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="InMemoryLoaderBase.DynamicClassSetup" BaseTypeListCollapsed="true">
-    <Position X="6.5" Y="2.75" Width="2.5" />
+  <Class Name="InMemoryLoaderBase.DynamicClassSetup">
+    <Position X="3.25" Y="0.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAIAAAAABAAAAIQAAAAAAAAAAAA=</HashCode>
       <FileName>DynamicClassSetup.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Interface Name="InMemoryLoaderBase.IDynamicClassInfo">
-    <Position X="3.25" Y="0.5" Width="2.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAEA=</HashCode>
-      <FileName>IDynamicClassInfo.cs</FileName>
-    </TypeIdentifier>
-  </Interface>
-  <Interface Name="InMemoryLoaderBase.IDynamicClassSetup">
-    <Position X="6.5" Y="0.5" Width="2.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAIQAAAAAAAAAAAA=</HashCode>
-      <FileName>IDynamicClassSetup.cs</FileName>
-    </TypeIdentifier>
-  </Interface>
-  <Enum Name="InMemoryLoaderBase.DateInterval">
-    <Position X="0.5" Y="5.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAACQAAAAQAAAAAAAAAAAIAAEQAABAAAAAAE=</HashCode>
-      <FileName>HelperEnum\DateInterval.cs</FileName>
-    </TypeIdentifier>
-  </Enum>
-  <Enum Name="InMemoryLoaderBase.DateTimeAmPmType">
-    <Position X="2.25" Y="5.75" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACACAAAEAAAA=</HashCode>
-      <FileName>HelperEnum\DateTimeAmPmType.cs</FileName>
-    </TypeIdentifier>
-  </Enum>
-  <Enum Name="InMemoryLoaderBase.FileCompareMethod">
-    <Position X="4.25" Y="5.75" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAEA=</HashCode>
-      <FileName>HelperEnum\FileCompareMethod.cs</FileName>
-    </TypeIdentifier>
-  </Enum>
-  <Enum Name="InMemoryLoaderBase.HashAlgorithmKind">
-    <Position X="6.25" Y="5.75" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAEAMAAEACBACAoAAgBAAAAAACAAIAAAQAARAABAAAQ=</HashCode>
-      <FileName>HelperEnum\HashAlgorithmKind.cs</FileName>
-    </TypeIdentifier>
-  </Enum>
-  <Enum Name="InMemoryLoaderBase.StringDirection">
-    <Position X="8.25" Y="5.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAA=</HashCode>
-      <FileName>HelperEnum\StringDirection.cs</FileName>
-    </TypeIdentifier>
-  </Enum>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

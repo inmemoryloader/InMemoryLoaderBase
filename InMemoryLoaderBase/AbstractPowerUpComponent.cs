@@ -38,7 +38,7 @@ namespace InMemoryLoaderBase
         /// <summary>
         /// Init-Methode die zur Initialisierung benötigt wird
         /// </summary>
-        /// <param name="paramArgument">Fancy key</param>
+        /// <param name="paramArgument">The Fancy key</param>
         /// <returns>True or false....</returns>
         public bool Init(int paramArgument)
         {
