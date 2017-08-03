@@ -1,5 +1,5 @@
 ﻿//
-// DateTimeAmPmType.cs
+// AbstractComponent.cs
 //
 // Author: Kay Stuckenschmidt <mailto.kaysta@gmail.com>
 //
@@ -23,26 +23,32 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-using System;
+using System.Configuration;
 
 namespace InMemoryLoaderBase
 {
-	/// <summary>
-	/// Definiert den Typ eines AM/PM-Strings in einer Zeitangabe
-	/// </summary>
-	public enum DateTimeAmPmType
-	{
-		/// <summary>
-		/// Keine AM/PM-Angabe
-		/// </summary>
-		None,
-		/// <summary>
-		/// AM/PM-Angabe links von der Zeitangabe
-		/// </summary>
-		Left,
-		/// <summary>
-		/// AM/PM-Angabe rechts von der Zeitangabe
-		/// </summary>
-		Right
-	}
+    /// <summary>
+    /// Wird zwingend benötigt um die Komponente korrekt registrieren zu können.
+    /// </summary>
+    public abstract class AbstractPowerUpComponent
+    {
+        /// <summary>
+		/// Fancy key to check in Init()
+        /// </summary>
+		public static string Key = ConfigurationManager.AppSettings ["ApplicationKey"].ToString ();
+
+        /// <summary>
+        /// Init-Methode die zur Initialisierung benötigt wird
+        /// </summary>
+        /// <param name="paramArgument">The Fancy key</param>
+        /// <returns>True or false....</returns>
+        public bool Init(string paramArgument)
+        {
+            if (paramArgument.Equals(Key))
+            {
+                return true;
+            }
+            return false;
+        }
+    }
 }
