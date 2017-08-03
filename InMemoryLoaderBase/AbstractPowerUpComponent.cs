@@ -23,6 +23,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
+using System.Configuration;
+
 namespace InMemoryLoaderBase
 {
     /// <summary>
@@ -33,14 +35,14 @@ namespace InMemoryLoaderBase
         /// <summary>
 		/// Fancy key to check in Init()
         /// </summary>
-        public const int Key = 0815;
+		public static string Key = ConfigurationManager.AppSettings ["ApplicationKey"].ToString ();
 
         /// <summary>
         /// Init-Methode die zur Initialisierung benötigt wird
         /// </summary>
         /// <param name="paramArgument">The Fancy key</param>
         /// <returns>True or false....</returns>
-        public bool Init(int paramArgument)
+        public bool Init(string paramArgument)
         {
             if (paramArgument.Equals(Key))
             {
