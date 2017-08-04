@@ -32,10 +32,10 @@ namespace InMemoryLoaderBase
     /// </summary>
     public abstract class AbstractPowerUpComponent
     {
-        /// <summary>
+		/// <summary>
 		/// Fancy key to check in Init()
-        /// </summary>
-		public static string Key = ConfigurationManager.AppSettings ["ApplicationKey"].ToString ();
+		/// </summary>
+		public static string Key = ConfigurationManager.AppSettings["ApplicationKey"].ToString();
 
         /// <summary>
         /// Init-Methode die zur Initialisierung benötigt wird
