@@ -35,7 +35,7 @@ namespace InMemoryLoaderBase
 		/// <summary>
 		/// Fancy key to check in Init()
 		/// </summary>
-		public static string Key = ConfigurationManager.AppSettings["ApplicationKey"].ToString();
+		public const string Key = "u5QfmfACqWmOclsedZdCA50TVijQVjendQ7ceeaxumAEcdKDjMrqOiWInN6d8f7p";
 
         /// <summary>
         /// Init-Methode die zur Initialisierung benötigt wird
