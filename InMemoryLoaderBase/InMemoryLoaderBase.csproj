@@ -70,7 +70,7 @@ einmalig instanziiert.</Description>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <None Include="Documentation\ClassDiagram.cd" />
+    <None Include="Documentation\InMemoryLoaderBase.cd" />
     <None Include="InMemoryLoaderBase.snk" />
     <None Include="packages.config" />
   </ItemGroup>
