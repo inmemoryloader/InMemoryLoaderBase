@@ -23,49 +23,50 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-
 using NUnit.Framework;
 using System.Configuration;
 
 namespace InMemoryLoaderBaseNunit
 {
-	/// <summary>
-	/// In memory loader base test class.
-	/// </summary>
-	[TestFixture ()]
-	public class InMemoryLoaderBaseTestClass
-	{
-		/// <summary>
-		/// Gets the console culture.
-		/// </summary>
-		/// <value>The console culture.</value>
-		private static string ConsoleCulture { get { return ConfigurationManager.AppSettings ["ConsoleCulture"].ToString (); } }
+    /// <summary>
+    /// In memory loader base test class.
+    /// </summary>
+    [TestFixture()]
+    public class InMemoryLoaderBaseTestClass
+    {
+        /// <summary>
+        /// Gets the console culture.
+        /// </summary>
+        /// <value>The console culture.</value>
+        private static string consoleCulture { get { return ConfigurationManager.AppSettings["ConsoleCulture"].ToString(); } }
 
-		/// <summary>
-		/// Gets the application key.
-		/// </summary>
-		/// <value>The application key.</value>
-		private static string ApplicationKey { get { return ConfigurationManager.AppSettings ["ApplicationKey"].ToString (); } }
+        /// <summary>
+        /// Gets the application key.
+        /// </summary>
+        /// <value>The application key.</value>
+        private static string applicationKey { get { return ConfigurationManager.AppSettings["ApplicationKey"].ToString(); } }
 
-		/// <summary>
-		/// AbstractPowerUpComponent Test Case
-		/// </summary>
-		[Test ()]
-		public void AbstractPowerUpComponentTestCase ()
-		{
-			try {
-				var testHelper = new TestHelper ();
-				var isInit = testHelper.Init(ApplicationKey);
+        /// <summary>
+        /// AbstractPowerUpComponent Test Case
+        /// </summary>
+        [Test()]
+        public void AbstractPowerUpComponentTestCase()
+        {
+            try
+            {
+                var testHelper = new TestHelper();
+                var isInit = testHelper.Init(applicationKey);
 			
-				Assert.IsTrue(isInit);
+                Assert.IsTrue(isInit);
 
 				
-			} catch (System.Exception ex) {
-				throw ex;
-			}
+            }
+            catch (System.Exception ex)
+            {
+                throw ex;
+            }
+        }
 
-		}
-
-	}
+    }
 
 }

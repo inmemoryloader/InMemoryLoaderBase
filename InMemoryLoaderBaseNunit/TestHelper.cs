@@ -23,24 +23,23 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-
-using System;
 using InMemoryLoaderBase;
 
 namespace InMemoryLoaderBaseNunit
 {
-	/// <summary>
-	/// Test helper.
-	/// </summary>
-	public class TestHelper : AbstractPowerUpComponent
-	{
-		/// <summary>
-		/// Initializes a new instance of the <see cref="InMemoryLoaderBaseNunit.TestHelper"/> class.
-		/// </summary>
-		public TestHelper ()
-		{
-		}
+    /// <summary>
+    /// Test helper.
+    /// </summary>
+    public class TestHelper : AbstractPowerUpComponent
+    {
+        /// <summary>
+        /// Initializes a new instance of the <see cref="InMemoryLoaderBaseNunit.TestHelper"/> class.
+        /// </summary>
+        public TestHelper()
+        {
+            
+        }
 
-	}
+    }
 
 }
