@@ -25,18 +25,45 @@
 
 
 using NUnit.Framework;
+using System.Configuration;
 
 namespace InMemoryLoaderBaseNunit
 {
-	
+	/// <summary>
+	/// In memory loader base test class.
+	/// </summary>
 	[TestFixture ()]
 	public class InMemoryLoaderBaseTestClass
 	{
-		
+		/// <summary>
+		/// Gets the console culture.
+		/// </summary>
+		/// <value>The console culture.</value>
+		private static string ConsoleCulture { get { return ConfigurationManager.AppSettings ["ConsoleCulture"].ToString (); } }
+
+		/// <summary>
+		/// Gets the application key.
+		/// </summary>
+		/// <value>The application key.</value>
+		private static string ApplicationKey { get { return ConfigurationManager.AppSettings ["ApplicationKey"].ToString (); } }
+
+		/// <summary>
+		/// AbstractPowerUpComponent Test Case
+		/// </summary>
 		[Test ()]
-		public void TestCase ()
+		public void AbstractPowerUpComponentTestCase ()
 		{
+			try {
+				var testHelper = new TestHelper ();
+				var isInit = testHelper.Init(ApplicationKey);
 			
+				Assert.IsTrue(isInit);
+
+				
+			} catch (System.Exception ex) {
+				throw ex;
+			}
+
 		}
 
 	}

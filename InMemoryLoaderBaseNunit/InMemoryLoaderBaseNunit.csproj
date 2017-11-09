@@ -33,12 +33,15 @@
     <Reference Include="InMemoryLoaderBase">
       <HintPath>..\packages\InMemoryLoaderBase.0.3.0.1\lib\InMemoryLoaderBase.dll</HintPath>
     </Reference>
+    <Reference Include="System.Configuration" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="InMemoryLoaderBaseTestClass.cs" />
+    <Compile Include="TestHelper.cs" />
   </ItemGroup>
 </Project>
