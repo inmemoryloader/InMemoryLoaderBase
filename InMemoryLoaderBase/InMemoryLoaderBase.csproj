@@ -17,8 +17,9 @@ InMemoryLoader ermöglicht das Laden von .Dll's zur Laufzeit ohne fixe
 Referenzen in der Solution zu benötigen. Hierbei werden die .Dll’s einmalig 
 geladen und geprüft, in eine Collection geschrieben und zur Laufzeit 
 einmalig instanziiert.</Description>
-    <ReleaseVersion>0.0.2</ReleaseVersion>
+    <ReleaseVersion>0.3.0.2</ReleaseVersion>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
     <Optimize>true</Optimize>
@@ -27,10 +28,11 @@ einmalig instanziiert.</Description>
     <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
-    <Optimize>false</Optimize>
+    <Optimize>true</Optimize>
     <OutputPath>bin\x64\Debug</OutputPath>
     <WarningLevel>4</WarningLevel>
     <PlatformTarget>x64</PlatformTarget>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
   </PropertyGroup>
   <PropertyGroup>
     <AssemblyOriginatorKeyFile>InMemoryLoaderBase.snk</AssemblyOriginatorKeyFile>
@@ -38,7 +40,7 @@ einmalig instanziiert.</Description>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
-    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a">
+    <Reference Include="log4net">
       <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
     </Reference>
   </ItemGroup>

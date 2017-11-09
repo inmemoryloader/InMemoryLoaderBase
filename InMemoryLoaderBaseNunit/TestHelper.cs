@@ -1,5 +1,5 @@
 ﻿//
-// InMemoryLoaderBaseNunit.cs
+// TestHelper.cs
 //
 // Author: Kay Stuckenschmidt <mailto.kaysta@gmail.com>
 //
@@ -24,46 +24,21 @@
 // THE SOFTWARE.
 
 
-using NUnit.Framework;
-using System.Configuration;
+using System;
+using InMemoryLoaderBase;
 
 namespace InMemoryLoaderBaseNunit
 {
 	/// <summary>
-	/// In memory loader base test class.
+	/// Test helper.
 	/// </summary>
-	[TestFixture ()]
-	public class InMemoryLoaderBaseTestClass
+	public class TestHelper : AbstractPowerUpComponent
 	{
 		/// <summary>
-		/// Gets the console culture.
+		/// Initializes a new instance of the <see cref="InMemoryLoaderBaseNunit.TestHelper"/> class.
 		/// </summary>
-		/// <value>The console culture.</value>
-		private static string ConsoleCulture { get { return ConfigurationManager.AppSettings ["ConsoleCulture"].ToString (); } }
-
-		/// <summary>
-		/// Gets the application key.
-		/// </summary>
-		/// <value>The application key.</value>
-		private static string ApplicationKey { get { return ConfigurationManager.AppSettings ["ApplicationKey"].ToString (); } }
-
-		/// <summary>
-		/// AbstractPowerUpComponent Test Case
-		/// </summary>
-		[Test ()]
-		public void AbstractPowerUpComponentTestCase ()
+		public TestHelper ()
 		{
-			try {
-				var testHelper = new TestHelper ();
-				var isInit = testHelper.Init(ApplicationKey);
-			
-				Assert.IsTrue(isInit);
-
-				
-			} catch (System.Exception ex) {
-				throw ex;
-			}
-
 		}
 
 	}
