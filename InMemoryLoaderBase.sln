@@ -1,29 +1,26 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+# Visual Studio 2012
 VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InMemoryLoaderBase", "InMemoryLoaderBase\InMemoryLoaderBase.csproj", "{55EC3AB9-DA4B-4888-8AA3-513F393FBFB1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InMemoryLoaderBaseNunit", "InMemoryLoaderBaseNunit\InMemoryLoaderBaseNunit.csproj", "{8108C37C-B7D2-41B5-BCE6-3E3157065E5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
 		Debug|x64 = Debug|x64
-		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{55EC3AB9-DA4B-4888-8AA3-513F393FBFB1}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{55EC3AB9-DA4B-4888-8AA3-513F393FBFB1}.Debug|x64.ActiveCfg = Debug|x64
-		{55EC3AB9-DA4B-4888-8AA3-513F393FBFB1}.Release|Any CPU.ActiveCfg = Release|x86
+		{55EC3AB9-DA4B-4888-8AA3-513F393FBFB1}.Debug|x64.Build.0 = Debug|x64
 		{55EC3AB9-DA4B-4888-8AA3-513F393FBFB1}.Release|x64.ActiveCfg = Release|x64
 		{55EC3AB9-DA4B-4888-8AA3-513F393FBFB1}.Release|x64.Build.0 = Release|x64
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {A48177FB-2F21-4A5C-B3A9-B4EBBFE566B8}
+		{8108C37C-B7D2-41B5-BCE6-3E3157065E5D}.Debug|x64.ActiveCfg = Release|x64
+		{8108C37C-B7D2-41B5-BCE6-3E3157065E5D}.Debug|x64.Build.0 = Release|x64
+		{8108C37C-B7D2-41B5-BCE6-3E3157065E5D}.Release|x64.ActiveCfg = Release|x64
+		{8108C37C-B7D2-41B5-BCE6-3E3157065E5D}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0
@@ -41,114 +38,19 @@ Global
 		$4.IncludeInNewFiles = True
 		$0.NameConventionPolicy = $5
 		$5.Rules = $6
-		$6.NamingRule = $26
-		$7.Name = Namespaces
-		$7.AffectedEntity = Namespace
+		$6.NamingRule = $7
+		$7.AffectedEntity = None
 		$7.VisibilityMask = VisibilityMask
-		$7.NamingStyle = PascalCase
+		$7.NamingStyle = None
 		$7.IncludeInstanceMembers = True
 		$7.IncludeStaticEntities = True
-		$8.Name = Types
-		$8.AffectedEntity = Class, Struct, Enum, Delegate
-		$8.VisibilityMask = Public
-		$8.NamingStyle = PascalCase
-		$8.IncludeInstanceMembers = True
-		$8.IncludeStaticEntities = True
-		$9.Name = Interfaces
-		$9.RequiredPrefixes = $10
-		$10.String = I
-		$9.AffectedEntity = Interface
-		$9.VisibilityMask = Public
-		$9.NamingStyle = PascalCase
-		$9.IncludeInstanceMembers = True
-		$9.IncludeStaticEntities = True
-		$11.Name = Attributes
-		$11.RequiredSuffixes = $12
-		$12.String = Attribute
-		$11.AffectedEntity = CustomAttributes
-		$11.VisibilityMask = Public
-		$11.NamingStyle = PascalCase
-		$11.IncludeInstanceMembers = True
-		$11.IncludeStaticEntities = True
-		$13.Name = Event Arguments
-		$13.RequiredSuffixes = $14
-		$14.String = EventArgs
-		$13.AffectedEntity = CustomEventArgs
-		$13.VisibilityMask = Public
-		$13.NamingStyle = PascalCase
-		$13.IncludeInstanceMembers = True
-		$13.IncludeStaticEntities = True
-		$15.Name = Exceptions
-		$15.RequiredSuffixes = $16
-		$16.String = Exception
-		$15.AffectedEntity = CustomExceptions
-		$15.VisibilityMask = VisibilityMask
-		$15.NamingStyle = PascalCase
-		$15.IncludeInstanceMembers = True
-		$15.IncludeStaticEntities = True
-		$17.Name = Methods
-		$17.AffectedEntity = Methods
-		$17.VisibilityMask = Protected, Public
-		$17.NamingStyle = PascalCase
-		$17.IncludeInstanceMembers = True
-		$17.IncludeStaticEntities = True
-		$18.Name = Static Readonly Fields
-		$18.AffectedEntity = ReadonlyField
-		$18.VisibilityMask = Protected, Public
-		$18.NamingStyle = PascalCase
-		$18.IncludeInstanceMembers = False
-		$18.IncludeStaticEntities = True
-		$19.Name = Fields
-		$19.AffectedEntity = Field
-		$19.VisibilityMask = Protected, Public
-		$19.NamingStyle = PascalCase
-		$19.IncludeInstanceMembers = True
-		$19.IncludeStaticEntities = True
-		$20.Name = ReadOnly Fields
-		$20.AffectedEntity = ReadonlyField
-		$20.VisibilityMask = Protected, Public
-		$20.NamingStyle = PascalCase
-		$20.IncludeInstanceMembers = True
-		$20.IncludeStaticEntities = False
-		$21.Name = Constant Fields
-		$21.AffectedEntity = ConstantField
-		$21.VisibilityMask = Protected, Public
-		$21.NamingStyle = PascalCase
-		$21.IncludeInstanceMembers = True
-		$21.IncludeStaticEntities = True
-		$22.Name = Properties
-		$22.AffectedEntity = Property
-		$22.VisibilityMask = Protected, Public
-		$22.NamingStyle = PascalCase
-		$22.IncludeInstanceMembers = True
-		$22.IncludeStaticEntities = True
-		$23.Name = Events
-		$23.AffectedEntity = Event
-		$23.VisibilityMask = Protected, Public
-		$23.NamingStyle = PascalCase
-		$23.IncludeInstanceMembers = True
-		$23.IncludeStaticEntities = True
-		$24.Name = Enum Members
-		$24.AffectedEntity = EnumMember
-		$24.VisibilityMask = VisibilityMask
-		$24.NamingStyle = PascalCase
-		$24.IncludeInstanceMembers = True
-		$24.IncludeStaticEntities = True
-		$25.Name = Parameters
-		$25.AffectedEntity = Parameter
-		$25.VisibilityMask = VisibilityMask
-		$25.NamingStyle = CamelCase
-		$25.IncludeInstanceMembers = True
-		$25.IncludeStaticEntities = True
-		$26.Name = Type Parameters
-		$26.RequiredPrefixes = $27
-		$27.String = T
-		$26.AffectedEntity = TypeParameter
-		$26.VisibilityMask = VisibilityMask
-		$26.NamingStyle = PascalCase
-		$26.IncludeInstanceMembers = True
-		$26.IncludeStaticEntities = True
 		description = @InMemoryLoader ist eine in C# geschriebene Funktionsbibliothek welche das \ndynamische Laden von .NET Assemblies zur Laufzeit ermöglicht. \nIm Wesentlichen besteht sie aus zwei nuget-Packages die mit Mono entwickelt \nwurden und so über Plattformgrenzen hinweg verwendet werden können.\n\nInMemoryLoader ermöglicht das Laden von .Dll's zur Laufzeit ohne fixe Referenzen \nin der Solution zu benötigen. Hierbei werden die .Dll’s einmalig geladen und geprüft, \nin eine Collection geschrieben und zur Laufzeit einmalig instanziiert.
 		version = 0.0.2
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A48177FB-2F21-4A5C-B3A9-B4EBBFE566B8}
 	EndGlobalSection
 EndGlobal
