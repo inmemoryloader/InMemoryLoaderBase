@@ -2,12 +2,11 @@
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <Platform Condition=" '$(Platform)' == '' ">x64</Platform>
     <ProjectGuid>{55EC3AB9-DA4B-4888-8AA3-513F393FBFB1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>InMemoryLoaderBase</RootNamespace>
     <AssemblyName>InMemoryLoaderBase</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <Description>InMemoryLoader ist eine in C# geschriebene Funktionsbibliothek welche 
 das dynamische Laden von .NET Assemblies zur Laufzeit ermöglicht. 
 Im Wesentlichen besteht sie aus zwei nuget-Packages die mit Mono 
@@ -18,42 +17,30 @@ InMemoryLoader ermöglicht das Laden von .Dll's zur Laufzeit ohne fixe
 Referenzen in der Solution zu benötigen. Hierbei werden die .Dll’s einmalig 
 geladen und geprüft, in eine Collection geschrieben und zur Laufzeit 
 einmalig instanziiert.</Description>
-    <ReleaseVersion>0.2.9.0</ReleaseVersion>
+    <ReleaseVersion>0.3.0.2</ReleaseVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
-    <DebugSymbols>true</DebugSymbols>
-    <OutputPath>bin\x86\Debug\</OutputPath>
-    <DefineConstants>TRACE;DEBUG;</DefineConstants>
-    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
-    <DocumentationFile>..\..\..\Deployment\InMemoryLoader\XmlDocumentation\InMemoryLoaderBase.xml</DocumentationFile>
-    <DebugType>full</DebugType>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
     <Optimize>true</Optimize>
-    <PlatformTarget>x86</PlatformTarget>
-    <ErrorReport>prompt</ErrorReport>
-    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
-    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <OutputPath>bin\x64\Release</OutputPath>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
-    <OutputPath>bin\x86\Release\</OutputPath>
-    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
-    <Optimize>true</Optimize>
-    <DebugType>full</DebugType>
-    <PlatformTarget>x86</PlatformTarget>
-    <ErrorReport>prompt</ErrorReport>
-    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
-  </PropertyGroup>
-  <PropertyGroup>
-    <SignAssembly>true</SignAssembly>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x64\Debug</OutputPath>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup>
     <AssemblyOriginatorKeyFile>InMemoryLoaderBase.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HelperEnum\DateInterval.cs" />
