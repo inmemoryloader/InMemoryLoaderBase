@@ -2,25 +2,23 @@
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">x64</Platform>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{8108C37C-B7D2-41B5-BCE6-3E3157065E5D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>InMemoryLoaderBaseNunit</RootNamespace>
     <AssemblyName>InMemoryLoaderBaseNunit</AssemblyName>
-    <ReleaseVersion>0.3.0.2</ReleaseVersion>
+    <ReleaseVersion>0.3.1.1</ReleaseVersion>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <Optimize>false</Optimize>
-    <OutputPath>bin\x64\Release</OutputPath>
+    <OutputPath>bin\Debug</OutputPath>
     <WarningLevel>4</WarningLevel>
-    <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <Optimize>false</Optimize>
-    <OutputPath>bin\x64\Debug</OutputPath>
+    <OutputPath>bin\Release</OutputPath>
     <WarningLevel>4</WarningLevel>
-    <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

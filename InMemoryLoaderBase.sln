@@ -9,18 +9,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InMemoryLoaderBaseNunit", "
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|x64 = Debug|x64
-		Release|x64 = Release|x64
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{55EC3AB9-DA4B-4888-8AA3-513F393FBFB1}.Debug|x64.ActiveCfg = Debug|x64
-		{55EC3AB9-DA4B-4888-8AA3-513F393FBFB1}.Debug|x64.Build.0 = Debug|x64
-		{55EC3AB9-DA4B-4888-8AA3-513F393FBFB1}.Release|x64.ActiveCfg = Release|x64
-		{55EC3AB9-DA4B-4888-8AA3-513F393FBFB1}.Release|x64.Build.0 = Release|x64
-		{8108C37C-B7D2-41B5-BCE6-3E3157065E5D}.Debug|x64.ActiveCfg = Debug|x64
-		{8108C37C-B7D2-41B5-BCE6-3E3157065E5D}.Debug|x64.Build.0 = Debug|x64
-		{8108C37C-B7D2-41B5-BCE6-3E3157065E5D}.Release|x64.ActiveCfg = Release|x64
-		{8108C37C-B7D2-41B5-BCE6-3E3157065E5D}.Release|x64.Build.0 = Release|x64
+		{55EC3AB9-DA4B-4888-8AA3-513F393FBFB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55EC3AB9-DA4B-4888-8AA3-513F393FBFB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55EC3AB9-DA4B-4888-8AA3-513F393FBFB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55EC3AB9-DA4B-4888-8AA3-513F393FBFB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8108C37C-B7D2-41B5-BCE6-3E3157065E5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8108C37C-B7D2-41B5-BCE6-3E3157065E5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8108C37C-B7D2-41B5-BCE6-3E3157065E5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8108C37C-B7D2-41B5-BCE6-3E3157065E5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0
@@ -93,7 +93,7 @@ Global
 		$12.inheritsScope = application/xml
 		$12.scope = application/xml
 		description = @InMemoryLoader ist eine in C# geschriebene Funktionsbibliothek welche das \ndynamische Laden von .NET Assemblies zur Laufzeit ermöglicht. \nIm Wesentlichen besteht sie aus zwei nuget-Packages die mit Mono entwickelt \nwurden und so über Plattformgrenzen hinweg verwendet werden können.\n\nInMemoryLoader ermöglicht das Laden von .Dll's zur Laufzeit ohne fixe Referenzen \nin der Solution zu benötigen. Hierbei werden die .Dll’s einmalig geladen und geprüft, \nin eine Collection geschrieben und zur Laufzeit einmalig instanziiert.
-		version = 0.3.0.2
+		version = 0.3.1.1
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
