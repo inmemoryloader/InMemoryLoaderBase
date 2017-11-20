@@ -8,16 +8,8 @@
     <RootNamespace>InMemoryLoaderBase</RootNamespace>
     <AssemblyName>InMemoryLoaderBase</AssemblyName>
     <Description>InMemoryLoader ist eine in C# geschriebene Funktionsbibliothek welche 
-das dynamische Laden von .NET Assemblies zur Laufzeit ermöglicht. 
-Im Wesentlichen besteht sie aus zwei nuget-Packages die mit Mono 
-entwickelt wurden und so über Plattformgrenzen hinweg verwendet 
-werden können.
-
-InMemoryLoader ermöglicht das Laden von .Dll's zur Laufzeit ohne fixe 
-Referenzen in der Solution zu benötigen. Hierbei werden die .Dll’s einmalig 
-geladen und geprüft, in eine Collection geschrieben und zur Laufzeit 
-einmalig instanziiert.</Description>
-    <ReleaseVersion>0.3.1.1</ReleaseVersion>
+das dynamische Laden von .NET Assemblies zur Laufzeit ermöglicht.</Description>
+    <ReleaseVersion>0.3.2</ReleaseVersion>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
@@ -29,6 +21,7 @@ einmalig instanziiert.</Description>
     <OutputPath>bin\Debug</OutputPath>
     <WarningLevel>4</WarningLevel>
     <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <DocumentationFile>..\..\Deployment\InMemoryLoader\XmlDocumentation\InMemoryLoaderBase.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <Optimize>false</Optimize>
