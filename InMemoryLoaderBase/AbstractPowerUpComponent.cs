@@ -30,10 +30,10 @@ namespace InMemoryLoaderBase
     /// </summary>
     public abstract class AbstractPowerUpComponent
     {
-		/// <summary>
-		/// Fancy key to check in Init()
-		/// </summary>
-		public const string Key = "u5QfmfACqWmOclsedZdCA50TVijQVjendQ7ceeaxumAEcdKDjMrqOiWInN6d8f7p";
+        /// <summary>
+        /// Fancy key to check in Init()
+        /// </summary>
+        public const string Key = "u5QfmfACqWmOclsedZdCA50TVijQVjendQ7ceeaxumAEcdKDjMrqOiWInN6d8f7p";
 
         /// <summary>
         /// Init-Methode die zur Initialisierung benötigt wird
@@ -42,11 +42,9 @@ namespace InMemoryLoaderBase
         /// <returns>True or false....</returns>
         public bool Init(string paramArgument)
         {
-            if (paramArgument.Equals(Key))
-            {
-                return true;
-            }
-            return false;
+            return paramArgument.Equals(Key);
         }
+
     }
+
 }
