@@ -92,7 +92,7 @@ Global
 		$12.inheritsSet = Mono
 		$12.inheritsScope = application/xml
 		$12.scope = application/xml
-		description = @InMemoryLoader ist eine in C# geschriebene Funktionsbibliothek welche das \ndynamische Laden von .NET Assemblies zur Laufzeit ermöglicht. \nIm Wesentlichen besteht sie aus zwei nuget-Packages die mit Mono entwickelt \nwurden und so über Plattformgrenzen hinweg verwendet werden können.
+		description = @InMemoryLoader ist eine in C# geschriebene Funktionsbibliothek welche das \ndynamische Laden von .NET Assemblies zur Laufzeit ermöglicht.
 		version = 0.3.2
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
