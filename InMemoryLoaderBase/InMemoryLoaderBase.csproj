@@ -20,7 +20,7 @@ das dynamische Laden von .NET Assemblies zur Laufzeit ermöglicht.</Description>
     <OutputPath>bin\Debug</OutputPath>
     <WarningLevel>4</WarningLevel>
     <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
-    <DocumentationFile>..\..\Deployment\InMemoryLoader\XmlDocumentation\InMemoryLoaderBase.xml</DocumentationFile>
+    <DocumentationFile>..\..\XmlDocumentation\InMemoryLoaderBase.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <Optimize>false</Optimize>
@@ -29,6 +29,9 @@ das dynamische Laden von .NET Assemblies zur Laufzeit ermöglicht.</Description>
     <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
   </ItemGroup>
@@ -49,5 +52,6 @@ das dynamische Laden von .NET Assemblies zur Laufzeit ermöglicht.</Description>
   <ItemGroup>
     <None Include="Documentation\InMemoryLoaderBase.cd" />
     <None Include="InMemoryLoaderBase.snk" />
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>
