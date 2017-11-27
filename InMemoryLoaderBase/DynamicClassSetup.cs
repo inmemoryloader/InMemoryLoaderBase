@@ -63,5 +63,7 @@ namespace InMemoryLoaderBase
         {
             get { return initMethod; }
         }
+
     }
+
 }
