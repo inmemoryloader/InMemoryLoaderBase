@@ -25,7 +25,7 @@
 
 using System;
 
-namespace InMemoryLoaderBase
+namespace InMemoryLoaderBase.HelperEnum
 {
 	/// <summary>
 	/// Definiert den Typ eines AM/PM-Strings in einer Zeitangabe

@@ -66,7 +66,7 @@ namespace InMemoryLoaderBase
         /// <summary>
         /// The methods.
         /// </summary>
-        private static MethodInfo[] methods;
+        static MethodInfo[] methods;
 
         /// <summary>
         /// Gets the methods.
