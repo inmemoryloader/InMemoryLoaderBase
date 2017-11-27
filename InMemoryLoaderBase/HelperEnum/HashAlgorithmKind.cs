@@ -112,7 +112,7 @@ namespace InMemoryLoaderBase.HelperEnum
         /// Hashfunktion wird ein zweites Mal auf diese Datenmenge angewendet.
         /// HMACRIPEMD160 verwendet das RIPEMD160-Verfahren, das einen Hash der Länge 160 Bit erzeugt.
         /// </remarks>
-        HmacRipemd160,
+        HmacRipeMd160,
 
         /// <summary>
         /// Hash-based Message Authentication Code (HMAC) über das SHA1-Verfahren

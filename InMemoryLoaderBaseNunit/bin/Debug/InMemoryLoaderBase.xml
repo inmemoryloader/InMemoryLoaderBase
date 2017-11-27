@@ -164,7 +164,7 @@
             HMACMD5 verwendet das MD5-Verfahren, das einen Hash der Länge 128 Bit erzeugt.
             </remarks>
         </member>
-        <member name="F:InMemoryLoaderBase.HelperEnum.HashAlgorithmKind.HmacRipemd160">
+        <member name="F:InMemoryLoaderBase.HelperEnum.HashAlgorithmKind.HmacRipeMd160">
             <summary>
             Hash-based Message Authentication Code (HMAC) über das RIPEMD160-Verfahren
             </summary>
