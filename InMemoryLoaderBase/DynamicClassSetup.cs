@@ -33,7 +33,7 @@ namespace InMemoryLoaderBase
         /// <summary>
         /// The init method.
         /// </summary>
-        private const string initMethod = "Init";
+        const string initMethod = "Init";
 
         /// <summary>
         /// Gets or sets the assembly.
@@ -63,5 +63,7 @@ namespace InMemoryLoaderBase
         {
             get { return initMethod; }
         }
+
     }
+
 }

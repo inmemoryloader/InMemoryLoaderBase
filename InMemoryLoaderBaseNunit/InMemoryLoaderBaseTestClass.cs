@@ -38,13 +38,13 @@ namespace InMemoryLoaderBaseNunit
         /// Gets the console culture.
         /// </summary>
         /// <value>The console culture.</value>
-        private static string consoleCulture { get { return ConfigurationManager.AppSettings["ConsoleCulture"].ToString(); } }
+        static string consoleCulture { get { return ConfigurationManager.AppSettings["ConsoleCulture"].ToString(); } }
 
         /// <summary>
         /// Gets the application key.
         /// </summary>
         /// <value>The application key.</value>
-        private static string applicationKey { get { return ConfigurationManager.AppSettings["ApplicationKey"].ToString(); } }
+        static string applicationKey { get { return ConfigurationManager.AppSettings["ApplicationKey"].ToString(); } }
 
         /// <summary>
         /// AbstractPowerUpComponent Test Case
@@ -58,8 +58,6 @@ namespace InMemoryLoaderBaseNunit
                 var isInit = testHelper.Init(applicationKey);
 			
                 Assert.IsTrue(isInit);
-
-				
             }
             catch (System.Exception ex)
             {

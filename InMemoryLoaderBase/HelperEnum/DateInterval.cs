@@ -25,7 +25,7 @@
 
 using System;
 
-namespace InMemoryLoaderBase
+namespace InMemoryLoaderBase.HelperEnum
 {
 	/// <summary>
 	/// Aufzählung der möglichen Datumsintervalle

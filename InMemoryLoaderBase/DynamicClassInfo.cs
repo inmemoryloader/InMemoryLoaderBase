@@ -66,7 +66,7 @@ namespace InMemoryLoaderBase
         /// <summary>
         /// The methods.
         /// </summary>
-        private static MethodInfo[] methods;
+        static MethodInfo[] methods;
 
         /// <summary>
         /// Gets the methods.
@@ -78,7 +78,7 @@ namespace InMemoryLoaderBase
             {
                 if (methods == null)
                 {
-                    methods = this.ClassType.GetMethods(BindingFlags.Public | BindingFlags.Instance);
+                    methods = ClassType.GetMethods(BindingFlags.Public | BindingFlags.Instance);
                 }
                 return methods;
             }
