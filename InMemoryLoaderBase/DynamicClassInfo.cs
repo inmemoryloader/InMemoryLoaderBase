@@ -78,7 +78,7 @@ namespace InMemoryLoaderBase
             {
                 if (methods == null)
                 {
-                    methods = this.ClassType.GetMethods(BindingFlags.Public | BindingFlags.Instance);
+                    methods = ClassType.GetMethods(BindingFlags.Public | BindingFlags.Instance);
                 }
                 return methods;
             }
