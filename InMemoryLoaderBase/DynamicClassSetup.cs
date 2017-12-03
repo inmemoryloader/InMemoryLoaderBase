@@ -39,21 +39,13 @@ namespace InMemoryLoaderBase
         /// Gets or sets the assembly.
         /// </summary>
         /// <value>The assembly.</value>
-        public string Assembly
-        {
-            get;
-            set;
-        }
+        public string Assembly { get; set; }
 
         /// <summary>
         /// Gets or sets the class.
         /// </summary>
         /// <value>The class.</value>
-        public string Class
-        {
-            get;
-            set;
-        }
+        public string Class { get; set; }
 
         /// <summary>
         /// Gets the init method.
