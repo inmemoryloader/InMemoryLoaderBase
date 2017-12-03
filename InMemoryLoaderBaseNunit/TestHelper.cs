@@ -34,7 +34,7 @@ namespace InMemoryLoaderBaseNunit
     /// </summary>
     internal class TestHelper : AbstractPowerUpComponent
     {
-        internal string AppKey { get; set; }
+        internal readonly string AppKey;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="InMemoryLoaderBaseNunit.TestHelper"/> class.
