@@ -38,13 +38,13 @@ namespace InMemoryLoaderBaseNunit
         /// Gets the console culture.
         /// </summary>
         /// <value>The console culture.</value>
-        static string ConsoleCulture { get { return ConfigurationManager.AppSettings["ConsoleCulture"].ToString(); } }
+        static string ConsoleCulture { get { return ConfigurationManager.AppSettings["ConsoleCulture"]; } }
 
         /// <summary>
         /// Gets the application key.
         /// </summary>
         /// <value>The application key.</value>
-        static string ApplicationKey { get { return ConfigurationManager.AppSettings["ApplicationKey"].ToString(); } }
+        static string ApplicationKey { get { return ConfigurationManager.AppSettings["ApplicationKey"]; } }
 
         /// <summary>
         /// AbstractPowerUpComponent Test Case
