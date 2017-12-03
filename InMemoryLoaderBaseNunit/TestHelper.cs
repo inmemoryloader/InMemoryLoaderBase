@@ -34,7 +34,7 @@ namespace InMemoryLoaderBaseNunit
     /// </summary>
     internal class TestHelper : AbstractPowerUpComponent
     {
-        internal string AppKey;
+        internal string AppKey { get; set; }
 
         /// <summary>
         /// Initializes a new instance of the <see cref="InMemoryLoaderBaseNunit.TestHelper"/> class.
@@ -43,7 +43,6 @@ namespace InMemoryLoaderBaseNunit
         {
             AppKey = AbstractPowerUpComponent.Key;
         }
-
 
         internal bool IterateDateInterval()
         {

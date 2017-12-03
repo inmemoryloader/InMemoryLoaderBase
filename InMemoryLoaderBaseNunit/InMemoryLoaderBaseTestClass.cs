@@ -38,13 +38,13 @@ namespace InMemoryLoaderBaseNunit
         /// Gets the console culture.
         /// </summary>
         /// <value>The console culture.</value>
-        static string ConsoleCulture { get { return ConfigurationManager.AppSettings["ConsoleCulture"]; } }
+        static string ConsoleCulture = ConfigurationManager.AppSettings["ConsoleCulture"];
 
         /// <summary>
         /// Gets the application key.
         /// </summary>
         /// <value>The application key.</value>
-        static string ApplicationKey { get { return ConfigurationManager.AppSettings["ApplicationKey"]; } }
+        static string ApplicationKey = ConfigurationManager.AppSettings["ApplicationKey"];
 
         /// <summary>
         /// AbstractPowerUpComponent Test Case
@@ -70,9 +70,9 @@ namespace InMemoryLoaderBaseNunit
                 Assert.IsTrue(testHelper.IterateHashAlgorithmKind());
                 Assert.IsTrue(testHelper.IterateStringDirection());
             }
-            catch (System.Exception ex)
+            catch (System.Exception)
             {
-                throw ex;
+                throw;
             }
         }
 
