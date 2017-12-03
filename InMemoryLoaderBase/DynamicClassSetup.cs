@@ -33,27 +33,19 @@ namespace InMemoryLoaderBase
         /// <summary>
         /// The init method.
         /// </summary>
-        const string initMethod = "Init";
+        readonly string _initMethod = "Init";
 
         /// <summary>
         /// Gets or sets the assembly.
         /// </summary>
         /// <value>The assembly.</value>
-        public string Assembly
-        {
-            get;
-            set;
-        }
+        public string Assembly { get; set; }
 
         /// <summary>
         /// Gets or sets the class.
         /// </summary>
         /// <value>The class.</value>
-        public string Class
-        {
-            get;
-            set;
-        }
+        public string Class { get; set; }
 
         /// <summary>
         /// Gets the init method.
@@ -61,7 +53,7 @@ namespace InMemoryLoaderBase
         /// <value>The init method.</value>
         public string InitMethod
         {
-            get { return initMethod; }
+            get { return _initMethod; }
         }
 
     }
