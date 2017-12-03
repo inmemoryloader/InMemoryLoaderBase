@@ -38,13 +38,13 @@ namespace InMemoryLoaderBaseNunit
         /// Gets the console culture.
         /// </summary>
         /// <value>The console culture.</value>
-        static string consoleCulture { get { return ConfigurationManager.AppSettings["ConsoleCulture"].ToString(); } }
+        static readonly string ConsoleCulture = ConfigurationManager.AppSettings["ConsoleCulture"];
 
         /// <summary>
         /// Gets the application key.
         /// </summary>
         /// <value>The application key.</value>
-        static string applicationKey { get { return ConfigurationManager.AppSettings["ApplicationKey"].ToString(); } }
+        static readonly string ApplicationKey = ConfigurationManager.AppSettings["ApplicationKey"];
 
         /// <summary>
         /// AbstractPowerUpComponent Test Case
@@ -55,13 +55,24 @@ namespace InMemoryLoaderBaseNunit
             try
             {
                 var testHelper = new TestHelper();
-                var isInit = testHelper.Init(applicationKey);
-			
+                var isInit = testHelper.Init(ApplicationKey);
+               
                 Assert.IsTrue(isInit);
+
+                var equals = string.Equals(ApplicationKey, testHelper.AppKey);
+                Assert.IsTrue(equals);
+
+                Assert.IsNotEmpty(ConsoleCulture);
+
+                Assert.IsTrue(testHelper.IterateDateInterval());
+                Assert.IsTrue(testHelper.IterateDateTimeAmPmType());
+                Assert.IsTrue(testHelper.IterateFileCompareMethod());
+                Assert.IsTrue(testHelper.IterateHashAlgorithmKind());
+                Assert.IsTrue(testHelper.IterateStringDirection());
             }
-            catch (System.Exception ex)
+            catch (System.Exception)
             {
-                throw ex;
+                throw;
             }
         }
 
