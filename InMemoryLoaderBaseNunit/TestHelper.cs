@@ -23,7 +23,9 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
+using System;
 using InMemoryLoaderBase;
+using InMemoryLoaderBase.HelperEnum;
 
 namespace InMemoryLoaderBaseNunit
 {
@@ -40,6 +42,37 @@ namespace InMemoryLoaderBaseNunit
         internal TestHelper()
         {
             AppKey = AbstractPowerUpComponent.Key;
+        }
+
+
+        internal bool IterateDateInterval()
+        {
+            var values = Enum.GetValues(typeof(DateInterval));
+            return values.Length > 1;
+        }
+
+        internal bool IterateDateTimeAmPmType()
+        {
+            var values = Enum.GetValues(typeof(DateTimeAmPmType));
+            return values.Length > 1;
+        }
+
+        internal bool IterateFileCompareMethod()
+        {
+            var values = Enum.GetValues(typeof(FileCompareMethod));
+            return values.Length > 1;
+        }
+
+        internal bool IterateHashAlgorithmKind()
+        {
+            var values = Enum.GetValues(typeof(HashAlgorithmKind));
+            return values.Length > 1;
+        }
+
+        internal bool IterateStringDirection()
+        {
+            var values = Enum.GetValues(typeof(StringDirection));
+            return values.Length > 1;
         }
 
     }

@@ -63,6 +63,12 @@ namespace InMemoryLoaderBaseNunit
                 Assert.IsTrue(equals);
 
                 Assert.IsNotEmpty(ConsoleCulture);
+
+                Assert.IsTrue(testHelper.IterateDateInterval());
+                Assert.IsTrue(testHelper.IterateDateTimeAmPmType());
+                Assert.IsTrue(testHelper.IterateFileCompareMethod());
+                Assert.IsTrue(testHelper.IterateHashAlgorithmKind());
+                Assert.IsTrue(testHelper.IterateStringDirection());
             }
             catch (System.Exception ex)
             {
