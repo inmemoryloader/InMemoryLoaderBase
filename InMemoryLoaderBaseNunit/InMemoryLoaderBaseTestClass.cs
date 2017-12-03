@@ -56,8 +56,13 @@ namespace InMemoryLoaderBaseNunit
             {
                 var testHelper = new TestHelper();
                 var isInit = testHelper.Init(ApplicationKey);
-			
+               
                 Assert.IsTrue(isInit);
+
+                var equals = string.Equals(ApplicationKey, testHelper.AppKey);
+                Assert.IsTrue(equals);
+
+                Assert.IsNotEmpty(ConsoleCulture);
             }
             catch (System.Exception ex)
             {

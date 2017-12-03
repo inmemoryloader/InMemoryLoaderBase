@@ -30,14 +30,16 @@ namespace InMemoryLoaderBaseNunit
     /// <summary>
     /// Test helper.
     /// </summary>
-    public class TestHelper : AbstractPowerUpComponent
+    internal class TestHelper : AbstractPowerUpComponent
     {
+        internal string AppKey;
+
         /// <summary>
         /// Initializes a new instance of the <see cref="InMemoryLoaderBaseNunit.TestHelper"/> class.
         /// </summary>
-        public TestHelper()
+        internal TestHelper()
         {
-            
+            AppKey = AbstractPowerUpComponent.Key;
         }
 
     }
