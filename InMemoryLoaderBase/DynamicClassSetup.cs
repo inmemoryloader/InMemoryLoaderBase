@@ -35,22 +35,13 @@ namespace InMemoryLoaderBase
         /// </summary>
         readonly string _initMethod = "Init";
 
-        /// <summary>
-        /// Gets or sets the assembly.
-        /// </summary>
-        /// <value>The assembly.</value>
+        /// <ingeritdoc />
         public string Assembly { get; set; }
 
-        /// <summary>
-        /// Gets or sets the class.
-        /// </summary>
-        /// <value>The class.</value>
+        /// <ingeritdoc />
         public string Class { get; set; }
 
-        /// <summary>
-        /// Gets the init method.
-        /// </summary>
-        /// <value>The init method.</value>
+        /// <ingeritdoc />
         public string InitMethod
         {
             get { return _initMethod; }
