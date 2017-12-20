@@ -72,12 +72,9 @@ namespace InMemoryLoaderBase
         /// Gets the methods.
         /// </summary>
         /// <value>The methods.</value>
-        public MethodInfo[] Methods
+        public MethodInfo[] GetMethods()
         {
-            get
-            {
-                return (_methods ?? (_methods = ClassType.GetMethods(BindingFlags.Public | BindingFlags.Instance)));
-            }
+            return (_methods ?? (_methods = ClassType.GetMethods(BindingFlags.Public | BindingFlags.Instance)));
         }
     }
 }
