@@ -1,7 +1,7 @@
 ﻿//
 // DynamicClassInfo.cs
 //
-// Author: Kay Stuckenschmidt <mailto.kaysta@gmail.com>
+// Author: Kay Stuckenschmidt
 //
 // Copyright (c) 2017 responsive-kaysta
 //
@@ -28,21 +28,13 @@ using System.Reflection;
 
 namespace InMemoryLoaderBase
 {
-    /// <summary>
-    /// Dynamic class info object
-    /// </summary>
+    /// <inheritdoc />
     public class DynamicClassInfo : IDynamicClassInfo
     {
-        /// <summary>
-        /// Gets or sets the type of the class.
-        /// </summary>
-        /// <value>The type of the class.</value>
+        /// <inheritdoc />
         public Type ClassType { get; set; }
 
-        /// <summary>
-        /// Gets or sets the class object.
-        /// </summary>
-        /// <value>The class object.</value>
+        /// <inheritdoc />
         public Object ClassObject { get; set; }
 
         /// <summary>
@@ -63,15 +55,10 @@ namespace InMemoryLoaderBase
             ClassObject = paramObject;
         }
 
-        /// <summary>
-        /// The methods.
-        /// </summary>
+        /// <inheritdoc />
         static MethodInfo[] _methods;
 
-        /// <summary>
-        /// Gets the methods.
-        /// </summary>
-        /// <value>The methods.</value>
+        /// <inheritdoc />
         public MethodInfo[] GetMethods()
         {
             return (_methods ?? (_methods = ClassType.GetMethods(BindingFlags.Public | BindingFlags.Instance)));
