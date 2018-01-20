@@ -5,13 +5,13 @@ using System.Reflection;
 // Change them to the values specific to your project.
 
 [assembly: AssemblyTitle ("InMemoryLoaderBase")]
-[assembly: AssemblyDescription ("tbd")]
-[assembly: AssemblyConfiguration ("tbd")]
+[assembly: AssemblyDescription ("")] ////TODO: tbd
+[assembly: AssemblyConfiguration ("")] ////TODO: tbd
 [assembly: AssemblyCompany ("responsive IT")]
 [assembly: AssemblyProduct ("InMemoryLoader")]
 [assembly: AssemblyCopyright ("responsive IT")]
 [assembly: AssemblyTrademark ("responsive IT")]
-[assembly: AssemblyCulture ("tbd")]
+[assembly: AssemblyCulture ("")] ////TODO: tbd
 
 // The assembly version has the format "{Major}.{Minor}.{Build}.{Revision}".
 // The form "{Major}.{Minor}.*" will automatically update the build and revision,
