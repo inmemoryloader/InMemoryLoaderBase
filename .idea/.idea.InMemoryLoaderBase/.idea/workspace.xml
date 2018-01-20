@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="899a1d13-90f5-46aa-8ff2-d62189579390" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/InMemoryLoaderBase/Documentation/InMemoryLoaderBase.cd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/InMemoryLoaderBase/InMemoryLoaderBase.csproj" afterPath="$PROJECT_DIR$/InMemoryLoaderBase/InMemoryLoaderBase.csproj" />
-    </list>
+    <list default="true" id="899a1d13-90f5-46aa-8ff2-d62189579390" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +57,11 @@
               <item name="InMemoryLoaderBase" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="HelperEnum" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="InMemoryLoaderBase (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="InMemoryLoaderBaseNunit" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -114,12 +116,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516476138945</updated>
-      <workItem from="1516476145070" duration="270000" />
+      <workItem from="1516476145070" duration="775000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="270000" />
+    <option name="totallyTimeSpent" value="775000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
