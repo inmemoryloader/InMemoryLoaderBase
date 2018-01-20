@@ -78,3 +78,5 @@ InMemoryLoaderBase/bin/Debug/InMemoryLoaderBase.dll
 InMemoryLoaderBaseNunit/bin/Debug/InMemoryLoaderBaseNunit.xml
 
 InMemoryLoaderBaseNunit/bin/Debug/InMemoryLoaderBase\.xml
+
+*.pdb

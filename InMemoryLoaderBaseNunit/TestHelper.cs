@@ -32,45 +32,50 @@ namespace InMemoryLoaderBaseNunit
     /// <summary>
     /// Test helper.
     /// </summary>
-    internal class TestHelper : AbstractPowerUpComponent
+    internal class TestHelper : IAbstractComponent
     {
         internal readonly string AppKey;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="InMemoryLoaderBaseNunit.TestHelper"/> class.
         /// </summary>
-        internal TestHelper()
+        internal TestHelper ()
         {
-            AppKey = AbstractPowerUpComponent.Key;
+            AppKey = AbstractComponent.Key;
         }
 
-        internal bool IterateDateInterval()
+        public bool Init (string paramArgument)
         {
-            var values = Enum.GetValues(typeof(DateInterval));
+            return AppKey.Equals (paramArgument);
+        }
+
+        internal bool IterateDateInterval ()
+        {
+            var values = Enum.GetValues (typeof (DateInterval));
             return values.Length > 1;
         }
 
-        internal bool IterateDateTimeAmPmType()
+        internal bool IterateDateTimeAmPmType ()
         {
-            var values = Enum.GetValues(typeof(DateTimeAmPmType));
+            var values = Enum.GetValues (typeof (DateTimeAmPmType));
             return values.Length > 1;
         }
 
-        internal bool IterateFileCompareMethod()
+        internal bool IterateFileCompareMethod ()
         {
-            var values = Enum.GetValues(typeof(FileCompareMethod));
+            var values = Enum.GetValues (typeof (FileCompareMethod));
             return values.Length > 1;
         }
 
-        internal bool IterateHashAlgorithmKind()
+        internal bool IterateHashAlgorithmKind ()
         {
-            var values = Enum.GetValues(typeof(HashAlgorithmKind));
+            var values = Enum.GetValues (typeof (HashAlgorithmKind));
             return values.Length > 1;
         }
 
-        internal bool IterateStringDirection()
+        internal bool IterateStringDirection ()
         {
-            var values = Enum.GetValues(typeof(StringDirection));
+            var values = Enum.GetValues (typeof (StringDirection));
             return values.Length > 1;
         }
 
