@@ -26,7 +26,7 @@
 namespace InMemoryLoaderBase
 {
 	/// <summary>
-	/// I dynamic class setup.
+	/// 
 	/// </summary>
 	public interface IDynamicClassSetup
 	{

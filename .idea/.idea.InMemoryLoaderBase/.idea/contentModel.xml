@@ -4,7 +4,7 @@
     <e p="$USER_HOME$/.Rider2017.3/system/resharper-host/local/Transient/ReSharperHost/v11/SolutionCaches/_InMemoryLoaderBase.481193099.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="InMemoryLoaderBase" t="IncludeRecursive">
-        <e p="AbstractPowerUpComponent.cs" t="Include" />
+        <e p="AbstractComponent.cs" t="Include" />
         <e p="DynamicClassInfo.cs" t="Include" />
         <e p="DynamicClassSetup.cs" t="Include" />
         <e p="HelperEnum" t="Include">
@@ -14,6 +14,7 @@
           <e p="HashAlgorithmKind.cs" t="Include" />
           <e p="StringDirection.cs" t="Include" />
         </e>
+        <e p="IAbstractComponent.cs" t="Include" />
         <e p="IDynamicClassInfo.cs" t="Include" />
         <e p="IDynamicClassSetup.cs" t="Include" />
         <e p="InMemoryLoaderBase.csproj" t="IncludeRecursive" />

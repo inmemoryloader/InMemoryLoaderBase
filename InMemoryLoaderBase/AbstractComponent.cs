@@ -23,30 +23,20 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-using System.Threading.Tasks;
-
 namespace InMemoryLoaderBase
 {
-    /// <summary>
-    /// Wird zwingend benötigt um die Komponente korrekt registrieren zu können.
-    /// </summary>
-    public abstract class AbstractPowerUpComponent
+    /// <ingeritdoc />
+    public abstract class AbstractComponent : IAbstractComponent
     {
         /// <summary>
         /// Fancy key to check in Init()
         /// </summary>
         public const string Key = "u5QfmfACqWmOclsedZdCA50TVijQVjendQ7ceeaxumAEcdKDjMrqOiWInN6d8f7p";
 
-        /// <summary>
-        /// Init-Methode die zur Initialisierung benötigt wird
-        /// </summary>
-        /// <param name="paramArgument">The Fancy key</param>
-        /// <returns>True or false....</returns>
+        /// <ingeritdoc />
         public bool Init(string paramArgument)
         {
             return paramArgument.Equals(Key);
         }
-        
     }
-
 }

@@ -1,7 +1,7 @@
 ﻿//
-// StringDirection.cs
+// IAbstractComponent.cs
 //
-// Author: Kay Stuckenschmidt 
+// Author: Kay Stuckenschmidt
 //
 // Copyright (c) 2017 responsive-kaysta
 //
@@ -23,20 +23,18 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-namespace InMemoryLoaderBase.HelperEnum
+namespace InMemoryLoaderBase 
 {
-	/// <summary>
-	/// String direction.
-	/// </summary>
-	public enum StringDirection
-	{
-		/// <summary>
-		/// The right.
-		/// </summary>
-		Right = 0,
-		/// <summary>
-		/// The left.
-		/// </summary>
-		Left = 1
-	}
+    /// <summary>
+    /// Requiered to create omponents and register them in the InMemoryLoader class registry
+    /// </summary>
+    public interface IAbstractComponent
+    {
+        /// <summary>
+        /// Requiered to initialize the component by checking againt paramArgument
+        /// </summary>
+        /// <param name="paramArgument"></param>
+        /// <returns>True if argument equals the key</returns>
+        bool Init(string paramArgument);
+    }
 }

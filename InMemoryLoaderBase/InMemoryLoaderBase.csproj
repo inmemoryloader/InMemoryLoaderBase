@@ -42,8 +42,9 @@ das dynamische Laden von .NET Assemblies zur Laufzeit ermöglicht.</Description>
     <Compile Include="HelperEnum\FileCompareMethod.cs" />
     <Compile Include="HelperEnum\HashAlgorithmKind.cs" />
     <Compile Include="HelperEnum\StringDirection.cs" />
+    <Compile Include="IAbstractComponent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="AbstractPowerUpComponent.cs" />
+    <Compile Include="AbstractComponent.cs" />
     <Compile Include="IDynamicClassInfo.cs" />
     <Compile Include="IDynamicClassSetup.cs" />
     <Compile Include="DynamicClassInfo.cs" />

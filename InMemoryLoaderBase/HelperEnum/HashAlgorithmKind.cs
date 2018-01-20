@@ -1,7 +1,7 @@
 ﻿//
 // HashAlgorithmKind.cs
 //
-// Author: Kay Stuckenschmidt <mailto.kaysta@gmail.com>
+// Author: Kay Stuckenschmidt
 //
 // Copyright (c) 2017 responsive-kaysta
 //

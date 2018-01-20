@@ -29,7 +29,7 @@ using System.Reflection;
 namespace InMemoryLoaderBase
 {
     /// <summary>
-    /// I dynamic class info.
+    /// 
     /// </summary>
     public interface IDynamicClassInfo
     {
