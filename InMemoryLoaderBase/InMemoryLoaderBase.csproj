@@ -51,7 +51,6 @@ das dynamische Laden von .NET Assemblies zur Laufzeit ermöglicht.</Description>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <None Include="Documentation\InMemoryLoaderBase.cd" />
     <None Include="InMemoryLoaderBase.snk" />
     <None Include="packages.config" />
   </ItemGroup>
