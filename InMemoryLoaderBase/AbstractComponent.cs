@@ -33,7 +33,11 @@ namespace InMemoryLoaderBase
         /// </summary>
         public const string Key = "u5QfmfACqWmOclsedZdCA50TVijQVjendQ7ceeaxumAEcdKDjMrqOiWInN6d8f7p";
 
-        /// <ingeritdoc />
+        /// <summary>
+        /// Requiered to initialize the component by checking againt paramArgument
+        /// </summary>
+        /// <param name="paramArgument"></param>
+        /// <returns>True if argument equals the key</returns>
         public bool Init(string paramArgument)
         {
             return paramArgument.Equals(Key);

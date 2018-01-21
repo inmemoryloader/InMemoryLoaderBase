@@ -30,11 +30,6 @@ namespace InMemoryLoaderBase
     /// </summary>
     public interface IAbstractComponent
     {
-        /// <summary>
-        /// Requiered to initialize the component by checking againt paramArgument
-        /// </summary>
-        /// <param name="paramArgument"></param>
-        /// <returns>True if argument equals the key</returns>
-        bool Init(string paramArgument);
+        
     }
 }
