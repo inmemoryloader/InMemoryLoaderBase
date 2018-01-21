@@ -42,11 +42,7 @@ namespace InMemoryLoaderBase
         public string Class { get; set; }
 
         /// <ingeritdoc />
-        public string InitMethod
-        {
-            get { return _initMethod; }
-        }
-
+        public string InitMethod => _initMethod;
     }
 
 }

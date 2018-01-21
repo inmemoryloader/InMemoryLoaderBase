@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BuildServerSettings">
-    <option name="LOGIN" value="" />
-    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="LOGIN" value="TcAdmin" />
+    <option name="SERVER_URL" value="http://localhost:8111" />
     <option name="REMEMBER_ME" value="true" />
     <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
     <option name="INSPECTIONS_BUILD_TYPE_IDS" />
@@ -20,10 +20,46 @@
     <option name="SHOW_CLOSE_PROMPT" value="true" />
     <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+    <treeState key="responsibilities">
+      <selectedPath>
+        <pathElement>
+          <option name="myNodeId" value="helperText" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.LinkedTextDescriptor" />
+        </pathElement>
+      </selectedPath>
+    </treeState>
+    <treeState key="changes">
+      <selectedPath>
+        <pathElement>
+          <option name="myNodeId" value="helperText" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.LinkedTextDescriptor" />
+        </pathElement>
+      </selectedPath>
+    </treeState>
+    <treeState key="project">
+      <expandedPath>
+        <pathElement>
+          <option name="myNodeId" value="project1" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.ProjectDescriptor" />
+        </pathElement>
+      </expandedPath>
+      <selectedPath>
+        <pathElement>
+          <option name="myNodeId" value="project1" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.ProjectDescriptor" />
+        </pathElement>
+        <pathElement>
+          <option name="myNodeId" value="bt1" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.BuildTypeDescriptor" />
+        </pathElement>
+      </selectedPath>
+    </treeState>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="899a1d13-90f5-46aa-8ff2-d62189579390" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.InMemoryLoaderBase/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.InMemoryLoaderBase/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.InMemoryLoaderBase/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.InMemoryLoaderBase/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/InMemoryLoaderBase/DynamicClassSetup.cs" afterPath="$PROJECT_DIR$/InMemoryLoaderBase/DynamicClassSetup.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,17 +69,68 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="AbstractComponent.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InMemoryLoaderBase/AbstractComponent.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="45" column="1" lean-forward="false" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+              <folding>
+                <marker date="1516527950131" expanded="false" signature="0:1177" ph="/* AbstractComponent.cs ... */" />
+                <marker date="1516527950131" expanded="true" signature="1207:1853" ph="{...}" />
+                <marker date="1516527950131" expanded="true" signature="1297:1851" ph="{...}" />
+                <marker date="1516527950131" expanded="true" signature="1312:1389" ph="/// Fancy key to check in Init() ... " />
+                <marker date="1516527950131" expanded="true" signature="1501:1732" ph="/// Requiered to initialize the component by checking againt paramArgument ... " />
+                <marker date="1516527950131" expanded="true" signature="1779:1845" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DynamicClassSetup.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/InMemoryLoaderBase/DynamicClassSetup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="443">
+              <caret line="44" column="36" lean-forward="false" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+              <folding>
+                <marker date="1516531079063" expanded="true" signature="0:1177" ph="/* DynamicClassSetup.cs ... */" />
+                <marker date="1516531079063" expanded="true" signature="1207:1686" ph="{...}" />
+                <marker date="1516531079063" expanded="true" signature="1214:1275" ph="/// Dynamic class setup. ... " />
+                <marker date="1516531079063" expanded="true" signature="1331:1683" ph="{...}" />
+                <marker date="1516531079063" expanded="true" signature="1346:1411" ph="/// The init method. ... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IAbstractComponent.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InMemoryLoaderBase/IAbstractComponent.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1516527946741" expanded="false" signature="0:1178" ph="/* IAbstractComponent.cs ... */" />
+                <marker date="1516527946741" expanded="true" signature="1209:1404" ph="{...}" />
+                <marker date="1516527946741" expanded="true" signature="1216:1341" ph="/// Requiered to create omponents and register them in the InMemoryLoader class registry ... " />
+                <marker date="1516527946741" expanded="true" signature="1381:1402" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/InMemoryLoaderBaseNunit/TestHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/InMemoryLoaderBase/IAbstractComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/InMemoryLoaderBaseNunit/InMemoryLoaderBaseTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/InMemoryLoaderBase/DynamicClassInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/InMemoryLoaderBase/IDynamicClassInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/InMemoryLoaderBase/DynamicClassSetup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/InMemoryLoaderBase/DynamicClassInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/InMemoryLoaderBase/IDynamicClassSetup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/InMemoryLoaderBase/IAbstractComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/InMemoryLoaderBase/AbstractComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/InMemoryLoaderBase/HelperEnum/StringDirection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/InMemoryLoaderBase/HelperEnum/FileCompareMethod.cs" root0="FORCE_HIGHLIGHTING" />
@@ -51,13 +138,10 @@
     <setting file="file://$PROJECT_DIR$/InMemoryLoaderBase/HelperEnum/DateInterval.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/InMemoryLoaderBase/HelperEnum/DateTimeAmPmType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/InMemoryLoaderBase/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/InMemoryLoaderBaseNunit/InMemoryLoaderBaseTests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/InMemoryLoaderBaseNunit/TestHelper.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/InMemoryLoaderBase/DynamicClassSetup.cs" />
         <option value="$PROJECT_DIR$/InMemoryLoaderBase/Properties/AssemblyInfo.cs" />
         <option value="$PROJECT_DIR$/InMemoryLoaderBase/AbstractPowerUpComponent.cs" />
         <option value="$PROJECT_DIR$/InMemoryLoaderBase/AbstractComponent.cs" />
@@ -71,6 +155,7 @@
         <option value="$PROJECT_DIR$/InMemoryLoaderBase/HelperEnum/StringDirection.cs" />
         <option value="$PROJECT_DIR$/InMemoryLoaderBaseNunit/InMemoryLoaderBaseTests.cs" />
         <option value="$PROJECT_DIR$/InMemoryLoaderBaseNunit/TestHelper.cs" />
+        <option value="$PROJECT_DIR$/InMemoryLoaderBase/DynamicClassSetup.cs" />
       </list>
     </option>
   </component>
@@ -149,7 +234,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected=".NET Project.Default">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -165,6 +250,9 @@
       <option name="PROJECT_KIND" value="None" />
       <option name="PROJECT_TFM" value="" />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue=".NET Project.Default" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -189,7 +277,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7305000" />
+    <option name="totallyTimeSpent" value="7967000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -204,30 +292,45 @@
     <frame x="-2" y="-1" width="1364" height="745" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.3279743" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" x="21" y="269" width="1318" height="204" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25988287" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23596358" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.48014706" sideWeight="0.5" order="25" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="23" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="20" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25988287" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="21" side_tool="false" content_ui="tabs" />
+      <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="22" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="24" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,11 +349,40 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1516490153524" expanded="false" signature="0:1177" ph="/* AbstractComponent.cs ... */" />
-            <marker date="1516490153524" expanded="true" signature="1207:1640" ph="{...}" />
-            <marker date="1516490153524" expanded="true" signature="1297:1638" ph="{...}" />
-            <marker date="1516490153524" expanded="true" signature="1312:1389" ph="/// Fancy key to check in Init() ... " />
-            <marker date="1516490153524" expanded="true" signature="1566:1632" ph="{...}" />
+            <marker date="1516527950131" expanded="false" signature="0:1177" ph="/* AbstractComponent.cs ... */" />
+            <marker date="1516527950131" expanded="true" signature="1207:1853" ph="{...}" />
+            <marker date="1516527950131" expanded="true" signature="1297:1851" ph="{...}" />
+            <marker date="1516527950131" expanded="true" signature="1312:1389" ph="/// Fancy key to check in Init() ... " />
+            <marker date="1516527950131" expanded="true" signature="1501:1732" ph="/// Requiered to initialize the component by checking againt paramArgument ... " />
+            <marker date="1516527950131" expanded="true" signature="1779:1845" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InMemoryLoaderBase/IAbstractComponent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1516527946741" expanded="false" signature="0:1178" ph="/* IAbstractComponent.cs ... */" />
+            <marker date="1516527946741" expanded="true" signature="1209:1404" ph="{...}" />
+            <marker date="1516527946741" expanded="true" signature="1216:1341" ph="/// Requiered to create omponents and register them in the InMemoryLoader class registry ... " />
+            <marker date="1516527946741" expanded="true" signature="1381:1402" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InMemoryLoaderBase/AbstractComponent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1516527950131" expanded="false" signature="0:1177" ph="/* AbstractComponent.cs ... */" />
+            <marker date="1516527950131" expanded="true" signature="1207:1853" ph="{...}" />
+            <marker date="1516527950131" expanded="true" signature="1297:1851" ph="{...}" />
+            <marker date="1516527950131" expanded="true" signature="1312:1389" ph="/// Fancy key to check in Init() ... " />
+            <marker date="1516527950131" expanded="true" signature="1501:1732" ph="/// Requiered to initialize the component by checking againt paramArgument ... " />
+            <marker date="1516527950131" expanded="true" signature="1779:1845" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -273,6 +405,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
           <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="26" />
+          <folding>
+            <marker date="1516531079063" expanded="true" signature="0:1177" ph="/* DynamicClassSetup.cs ... */" />
+            <marker date="1516531079063" expanded="true" signature="1207:1686" ph="{...}" />
+            <marker date="1516531079063" expanded="true" signature="1214:1275" ph="/// Dynamic class setup. ... " />
+            <marker date="1516531079063" expanded="true" signature="1331:1683" ph="{...}" />
+            <marker date="1516531079063" expanded="true" signature="1346:1411" ph="/// The init method. ... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -322,14 +461,111 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InMemoryLoaderBase/IAbstractComponent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
           <folding>
-            <marker date="1516490241452" expanded="false" signature="0:1176" ph="/* StringDirection.cs ... */" />
-            <marker date="1516490241452" expanded="true" signature="1217:1433" ph="{...}" />
-            <marker date="1516490241452" expanded="true" signature="1221:1273" ph="/// String direction. ... " />
-            <marker date="1516490241452" expanded="true" signature="1302:1431" ph="{...}" />
-            <marker date="1516490241452" expanded="true" signature="1308:1355" ph="/// The right. ... " />
-            <marker date="1516490241452" expanded="true" signature="1371:1417" ph="/// The left. ... " />
+            <marker date="1516527946741" expanded="false" signature="0:1178" ph="/* IAbstractComponent.cs ... */" />
+            <marker date="1516527946741" expanded="true" signature="1209:1404" ph="{...}" />
+            <marker date="1516527946741" expanded="true" signature="1216:1341" ph="/// Requiered to create omponents and register them in the InMemoryLoader class registry ... " />
+            <marker date="1516527946741" expanded="true" signature="1381:1402" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InMemoryLoaderBase/AbstractComponent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="28" />
+          <folding>
+            <marker date="1516527950131" expanded="false" signature="0:1177" ph="/* AbstractComponent.cs ... */" />
+            <marker date="1516527950131" expanded="true" signature="1207:1853" ph="{...}" />
+            <marker date="1516527950131" expanded="true" signature="1297:1851" ph="{...}" />
+            <marker date="1516527950131" expanded="true" signature="1312:1389" ph="/// Fancy key to check in Init() ... " />
+            <marker date="1516527950131" expanded="true" signature="1501:1732" ph="/// Requiered to initialize the component by checking againt paramArgument ... " />
+            <marker date="1516527950131" expanded="true" signature="1779:1845" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InMemoryLoaderBase/Properties/AssemblyInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InMemoryLoaderBase/DynamicClassInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="66" column="1" lean-forward="false" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InMemoryLoaderBase/IDynamicClassInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="31" column="8" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InMemoryLoaderBase/IDynamicClassSetup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InMemoryLoaderBase/HelperEnum/DateInterval.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InMemoryLoaderBase/HelperEnum/DateTimeAmPmType.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InMemoryLoaderBase/HelperEnum/FileCompareMethod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InMemoryLoaderBase/HelperEnum/HashAlgorithmKind.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InMemoryLoaderBase/HelperEnum/StringDirection.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InMemoryLoaderBaseNunit/InMemoryLoaderBaseTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InMemoryLoaderBaseNunit/TestHelper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="53" column="64" lean-forward="true" selection-start-line="53" selection-start-column="64" selection-end-line="53" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -338,47 +574,39 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1516490153440" expanded="false" signature="0:1178" ph="/* IAbstractComponent.cs ... */" />
-            <marker date="1516490153440" expanded="true" signature="1209:1676" ph="{...}" />
-            <marker date="1516490153440" expanded="true" signature="1216:1341" ph="/// Requiered to create omponents and register them in the InMemoryLoader class registry ... " />
-            <marker date="1516490153440" expanded="true" signature="1381:1674" ph="{...}" />
-            <marker date="1516490153440" expanded="true" signature="1396:1627" ph="/// Requiered to initialize the component by checking againt paramArgument ... " />
+            <marker date="1516527946741" expanded="false" signature="0:1178" ph="/* IAbstractComponent.cs ... */" />
+            <marker date="1516527946741" expanded="true" signature="1209:1404" ph="{...}" />
+            <marker date="1516527946741" expanded="true" signature="1216:1341" ph="/// Requiered to create omponents and register them in the InMemoryLoader class registry ... " />
+            <marker date="1516527946741" expanded="true" signature="1381:1402" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/InMemoryLoaderBaseNunit/InMemoryLoaderBaseTests.cs">
+    <entry file="file://$PROJECT_DIR$/InMemoryLoaderBase/AbstractComponent.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="28" />
+        <state relative-caret-position="374">
+          <caret line="45" column="1" lean-forward="false" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
           <folding>
-            <marker date="1516490153524" expanded="false" signature="0:1177" ph="/* AbstractComponent.cs ... */" />
-            <marker date="1516490153524" expanded="true" signature="1207:1640" ph="{...}" />
-            <marker date="1516490153524" expanded="true" signature="1297:1638" ph="{...}" />
-            <marker date="1516490153524" expanded="true" signature="1312:1389" ph="/// Fancy key to check in Init() ... " />
-            <marker date="1516490153524" expanded="true" signature="1566:1632" ph="{...}" />
+            <marker date="1516527950131" expanded="false" signature="0:1177" ph="/* AbstractComponent.cs ... */" />
+            <marker date="1516527950131" expanded="true" signature="1207:1853" ph="{...}" />
+            <marker date="1516527950131" expanded="true" signature="1297:1851" ph="{...}" />
+            <marker date="1516527950131" expanded="true" signature="1312:1389" ph="/// Fancy key to check in Init() ... " />
+            <marker date="1516527950131" expanded="true" signature="1501:1732" ph="/// Requiered to initialize the component by checking againt paramArgument ... " />
+            <marker date="1516527950131" expanded="true" signature="1779:1845" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/InMemoryLoaderBaseNunit/TestHelper.cs">
+    <entry file="file://$PROJECT_DIR$/InMemoryLoaderBase/DynamicClassSetup.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="53" column="64" lean-forward="true" selection-start-line="53" selection-start-column="64" selection-end-line="53" selection-end-column="64" />
+        <state relative-caret-position="443">
+          <caret line="44" column="36" lean-forward="false" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
           <folding>
-            <marker date="1516529887419" expanded="false" signature="0:1170" ph="/* TestHelper.cs ... */" />
-            <marker date="1516529887419" expanded="false" signature="1178:1248" ph="..." />
-            <marker date="1516529887419" expanded="true" signature="1283:2694" ph="{...}" />
-            <marker date="1516529887419" expanded="true" signature="1290:1343" ph="/// Test helper. ... " />
-            <marker date="1516529887419" expanded="true" signature="1394:2691" ph="{...}" />
-            <marker date="1516529887419" expanded="false" signature="1451:1589" ph="/// Initializes a new instance of the &lt;see cref=&quot;InMemoryLoaderBaseNunit.TestHelper&quot;/&gt; class. ... " />
-            <marker date="1516529887419" expanded="true" signature="1620:1684" ph="{...}" />
-            <marker date="1516529887419" expanded="true" signature="1735:1805" ph="{...}" />
-            <marker date="1516529887419" expanded="true" signature="1851:1974" ph="{...}" />
-            <marker date="1516529887419" expanded="true" signature="2024:2151" ph="{...}" />
-            <marker date="1516529887419" expanded="true" signature="2202:2330" ph="{...}" />
-            <marker date="1516529887419" expanded="true" signature="2381:2509" ph="{...}" />
-            <marker date="1516529887419" expanded="true" signature="2558:2684" ph="{...}" />
+            <marker date="1516531079063" expanded="true" signature="0:1177" ph="/* DynamicClassSetup.cs ... */" />
+            <marker date="1516531079063" expanded="true" signature="1207:1686" ph="{...}" />
+            <marker date="1516531079063" expanded="true" signature="1214:1275" ph="/// Dynamic class setup. ... " />
+            <marker date="1516531079063" expanded="true" signature="1331:1683" ph="{...}" />
+            <marker date="1516531079063" expanded="true" signature="1346:1411" ph="/// The init method. ... " />
           </folding>
         </state>
       </provider>
