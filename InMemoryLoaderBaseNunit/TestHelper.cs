@@ -1,7 +1,7 @@
 ﻿//
 // TestHelper.cs
 //
-// Author: Kay Stuckenschmidt <mailto.kaysta@gmail.com>
+// Author: Kay Stuckenschmidt
 //
 // Copyright (c) 2017 responsive-kaysta
 //
@@ -44,7 +44,7 @@ namespace InMemoryLoaderBaseNunit
             AppKey = AbstractComponent.Key;
         }
 
-        public bool Init (string paramArgument)
+        internal bool Init (string paramArgument)
         {
             return AppKey.Equals (paramArgument);
         }

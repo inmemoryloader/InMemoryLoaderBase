@@ -32,7 +32,7 @@ namespace InMemoryLoaderBaseNunit
     /// In memory loader base test class.
     /// </summary>
     [TestFixture()]
-    public class InMemoryLoaderBaseTestClass
+    public class InMemoryLoaderBaseTests
     {
         /// <summary>
         /// Gets the console culture.
@@ -50,7 +50,7 @@ namespace InMemoryLoaderBaseNunit
         /// AbstractPowerUpComponent Test Case
         /// </summary>
         [Test()]
-        public void AbstractPowerUpComponentTestCase()
+        public void InMmoryLoaderBaseTest()
         {
             try
             {
