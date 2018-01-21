@@ -26,14 +26,14 @@
 namespace InMemoryLoaderBase
 {
     /// <summary>
-    /// Dynamic class setup.
+    ///     Dynamic class setup.
     /// </summary>
     public class DynamicClassSetup : IDynamicClassSetup
     {
         /// <summary>
-        /// The init method.
+        ///     The init method.
         /// </summary>
-        readonly string _initMethod = "Init";
+        private readonly string _initMethod = "Init";
 
         /// <ingeritdoc />
         public string Assembly { get; set; }
@@ -44,5 +44,4 @@ namespace InMemoryLoaderBase
         /// <ingeritdoc />
         public string InitMethod => _initMethod;
     }
-
 }

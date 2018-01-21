@@ -32,36 +32,36 @@ namespace InMemoryLoaderBase
     public class DynamicClassInfo : IDynamicClassInfo
     {
         /// <inheritdoc />
-        public Type ClassType { get; set; }
-
-        /// <inheritdoc />
-        public Object ClassObject { get; set; }
+        private static MethodInfo[] _methods;
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="InMemoryLoaderBase.DynamicClassInfo"/> class.
+        ///     Initializes a new instance of the <see cref="InMemoryLoaderBase.DynamicClassInfo" /> class.
         /// </summary>
         public DynamicClassInfo()
         {
         }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="InMemoryLoaderBase.DynamicClassInfo"/> class.
+        ///     Initializes a new instance of the <see cref="InMemoryLoaderBase.DynamicClassInfo" /> class.
         /// </summary>
         /// <param name="paramType">Parameter type.</param>
         /// <param name="paramObject">Parameter object.</param>
-        public DynamicClassInfo(Type paramType, Object paramObject)
+        public DynamicClassInfo(Type paramType, object paramObject)
         {
             ClassType = paramType;
             ClassObject = paramObject;
         }
 
         /// <inheritdoc />
-        static MethodInfo[] _methods;
+        public Type ClassType { get; set; }
+
+        /// <inheritdoc />
+        public object ClassObject { get; set; }
 
         /// <inheritdoc />
         public MethodInfo[] GetMethods()
         {
-            return (_methods ?? (_methods = ClassType.GetMethods(BindingFlags.Public | BindingFlags.Instance)));
+            return _methods ?? (_methods = ClassType.GetMethods(BindingFlags.Public | BindingFlags.Instance));
         }
     }
 }
