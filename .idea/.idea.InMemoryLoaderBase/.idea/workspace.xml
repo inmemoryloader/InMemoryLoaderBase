@@ -23,11 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="899a1d13-90f5-46aa-8ff2-d62189579390" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.InMemoryLoaderBase/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.InMemoryLoaderBase/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.InMemoryLoaderBase/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.InMemoryLoaderBase/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/InMemoryLoaderBaseNunit/InMemoryLoaderBaseNunit.csproj" afterPath="$PROJECT_DIR$/InMemoryLoaderBaseNunit/InMemoryLoaderBaseNunit.csproj" />
-      <change beforePath="$PROJECT_DIR$/InMemoryLoaderBaseNunit/InMemoryLoaderBaseTestClass.cs" afterPath="$PROJECT_DIR$/InMemoryLoaderBaseNunit/InMemoryLoaderBaseTests.cs" />
-      <change beforePath="$PROJECT_DIR$/InMemoryLoaderBaseNunit/TestHelper.cs" afterPath="$PROJECT_DIR$/InMemoryLoaderBaseNunit/TestHelper.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,86 +33,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AbstractComponent.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/InMemoryLoaderBase/AbstractComponent.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="28" />
-              <folding>
-                <marker date="1516529472617" expanded="false" signature="0:1177" ph="/* AbstractComponent.cs ... */" />
-                <marker date="1516529472617" expanded="true" signature="1207:1853" ph="{...}" />
-                <marker date="1516529472617" expanded="true" signature="1297:1851" ph="{...}" />
-                <marker date="1516529472617" expanded="false" signature="1312:1389" ph="/// Fancy key to check in Init() ... " />
-                <marker date="1516529472617" expanded="false" signature="1501:1732" ph="/// Requiered to initialize the component by checking againt paramArgument ... " />
-                <marker date="1516529472617" expanded="true" signature="1779:1845" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IAbstractComponent.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/InMemoryLoaderBase/IAbstractComponent.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-              <folding>
-                <marker date="1516529472647" expanded="false" signature="0:1178" ph="/* IAbstractComponent.cs ... */" />
-                <marker date="1516529472647" expanded="true" signature="1209:1404" ph="{...}" />
-                <marker date="1516529472647" expanded="true" signature="1216:1341" ph="/// Requiered to create omponents and register them in the InMemoryLoader class registry ... " />
-                <marker date="1516529472647" expanded="true" signature="1381:1402" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InMemoryLoaderBaseTests.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/InMemoryLoaderBaseNunit/InMemoryLoaderBaseTests.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="52" column="41" lean-forward="false" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
-              <folding>
-                <marker date="1516529887493" expanded="true" signature="0:1209" ph="/* InMemoryLoaderBaseNunit.cs ... */" />
-                <marker date="1516529887493" expanded="false" signature="1217:1261" ph="..." />
-                <marker date="1516529887493" expanded="true" signature="1296:2905" ph="{...}" />
-                <marker date="1516529887493" expanded="true" signature="1303:1377" ph="/// In memory loader base test class. ... " />
-                <marker date="1516529887493" expanded="true" signature="1438:2902" ph="{...}" />
-                <marker date="1516529887493" expanded="true" signature="1453:1575" ph="/// Gets the console culture. ... " />
-                <marker date="1516529887493" expanded="true" signature="1685:1807" ph="/// Gets the application key. ... " />
-                <marker date="1516529887493" expanded="true" signature="1917:2000" ph="/// AbstractPowerUpComponent Test Case ... " />
-                <marker date="1516529887493" expanded="true" signature="2061:2895" ph="{...}" />
-                <marker date="1516529887493" expanded="true" signature="2087:2797" ph="{...}" />
-                <marker date="1516529887493" expanded="true" signature="2834:2885" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestHelper.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/InMemoryLoaderBaseNunit/TestHelper.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="53" column="64" lean-forward="true" selection-start-line="53" selection-start-column="64" selection-end-line="53" selection-end-column="64" />
-              <folding>
-                <marker date="1516529887419" expanded="false" signature="0:1170" ph="/* TestHelper.cs ... */" />
-                <marker date="1516529887419" expanded="false" signature="1178:1248" ph="..." />
-                <marker date="1516529887419" expanded="true" signature="1283:2694" ph="{...}" />
-                <marker date="1516529887419" expanded="true" signature="1290:1343" ph="/// Test helper. ... " />
-                <marker date="1516529887419" expanded="true" signature="1394:2691" ph="{...}" />
-                <marker date="1516529887419" expanded="false" signature="1451:1589" ph="/// Initializes a new instance of the &lt;see cref=&quot;InMemoryLoaderBaseNunit.TestHelper&quot;/&gt; class. ... " />
-                <marker date="1516529887419" expanded="true" signature="1620:1684" ph="{...}" />
-                <marker date="1516529887419" expanded="true" signature="1735:1805" ph="{...}" />
-                <marker date="1516529887419" expanded="true" signature="1851:1974" ph="{...}" />
-                <marker date="1516529887419" expanded="true" signature="2024:2151" ph="{...}" />
-                <marker date="1516529887419" expanded="true" signature="2202:2330" ph="{...}" />
-                <marker date="1516529887419" expanded="true" signature="2381:2509" ph="{...}" />
-                <marker date="1516529887419" expanded="true" signature="2558:2684" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -268,12 +185,11 @@
       <workItem from="1516482947517" duration="726000" />
       <workItem from="1516485896259" duration="1714000" />
       <workItem from="1516488064158" duration="2800000" />
-      <workItem from="1516529627219" duration="411000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7716000" />
+    <option name="totallyTimeSpent" value="7305000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -285,7 +201,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-2" y="-1" width="1364" height="745" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -297,6 +214,9 @@
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25988287" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -306,9 +226,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.32868218" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -329,40 +246,11 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1516529472617" expanded="false" signature="0:1177" ph="/* AbstractComponent.cs ... */" />
-            <marker date="1516529472617" expanded="true" signature="1207:1853" ph="{...}" />
-            <marker date="1516529472617" expanded="true" signature="1297:1851" ph="{...}" />
-            <marker date="1516529472617" expanded="false" signature="1312:1389" ph="/// Fancy key to check in Init() ... " />
-            <marker date="1516529472617" expanded="false" signature="1501:1732" ph="/// Requiered to initialize the component by checking againt paramArgument ... " />
-            <marker date="1516529472617" expanded="true" signature="1779:1845" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InMemoryLoaderBase/IAbstractComponent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1516529472647" expanded="false" signature="0:1178" ph="/* IAbstractComponent.cs ... */" />
-            <marker date="1516529472647" expanded="true" signature="1209:1404" ph="{...}" />
-            <marker date="1516529472647" expanded="true" signature="1216:1341" ph="/// Requiered to create omponents and register them in the InMemoryLoader class registry ... " />
-            <marker date="1516529472647" expanded="true" signature="1381:1402" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InMemoryLoaderBase/AbstractComponent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1516529472617" expanded="false" signature="0:1177" ph="/* AbstractComponent.cs ... */" />
-            <marker date="1516529472617" expanded="true" signature="1207:1853" ph="{...}" />
-            <marker date="1516529472617" expanded="true" signature="1297:1851" ph="{...}" />
-            <marker date="1516529472617" expanded="false" signature="1312:1389" ph="/// Fancy key to check in Init() ... " />
-            <marker date="1516529472617" expanded="false" signature="1501:1732" ph="/// Requiered to initialize the component by checking againt paramArgument ... " />
-            <marker date="1516529472617" expanded="true" signature="1779:1845" ph="{...}" />
+            <marker date="1516490153524" expanded="false" signature="0:1177" ph="/* AbstractComponent.cs ... */" />
+            <marker date="1516490153524" expanded="true" signature="1207:1640" ph="{...}" />
+            <marker date="1516490153524" expanded="true" signature="1297:1638" ph="{...}" />
+            <marker date="1516490153524" expanded="true" signature="1312:1389" ph="/// Fancy key to check in Init() ... " />
+            <marker date="1516490153524" expanded="true" signature="1566:1632" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -434,53 +322,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InMemoryLoaderBase/AbstractComponent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="28" />
           <folding>
-            <marker date="1516529472617" expanded="false" signature="0:1177" ph="/* AbstractComponent.cs ... */" />
-            <marker date="1516529472617" expanded="true" signature="1207:1853" ph="{...}" />
-            <marker date="1516529472617" expanded="true" signature="1297:1851" ph="{...}" />
-            <marker date="1516529472617" expanded="false" signature="1312:1389" ph="/// Fancy key to check in Init() ... " />
-            <marker date="1516529472617" expanded="false" signature="1501:1732" ph="/// Requiered to initialize the component by checking againt paramArgument ... " />
-            <marker date="1516529472617" expanded="true" signature="1779:1845" ph="{...}" />
+            <marker date="1516490241452" expanded="false" signature="0:1176" ph="/* StringDirection.cs ... */" />
+            <marker date="1516490241452" expanded="true" signature="1217:1433" ph="{...}" />
+            <marker date="1516490241452" expanded="true" signature="1221:1273" ph="/// String direction. ... " />
+            <marker date="1516490241452" expanded="true" signature="1302:1431" ph="{...}" />
+            <marker date="1516490241452" expanded="true" signature="1308:1355" ph="/// The right. ... " />
+            <marker date="1516490241452" expanded="true" signature="1371:1417" ph="/// The left. ... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/InMemoryLoaderBase/IAbstractComponent.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1516529472647" expanded="false" signature="0:1178" ph="/* IAbstractComponent.cs ... */" />
-            <marker date="1516529472647" expanded="true" signature="1209:1404" ph="{...}" />
-            <marker date="1516529472647" expanded="true" signature="1216:1341" ph="/// Requiered to create omponents and register them in the InMemoryLoader class registry ... " />
-            <marker date="1516529472647" expanded="true" signature="1381:1402" ph="{...}" />
+            <marker date="1516490153440" expanded="false" signature="0:1178" ph="/* IAbstractComponent.cs ... */" />
+            <marker date="1516490153440" expanded="true" signature="1209:1676" ph="{...}" />
+            <marker date="1516490153440" expanded="true" signature="1216:1341" ph="/// Requiered to create omponents and register them in the InMemoryLoader class registry ... " />
+            <marker date="1516490153440" expanded="true" signature="1381:1674" ph="{...}" />
+            <marker date="1516490153440" expanded="true" signature="1396:1627" ph="/// Requiered to initialize the component by checking againt paramArgument ... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/InMemoryLoaderBaseNunit/InMemoryLoaderBaseTests.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="52" column="41" lean-forward="false" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
+        <state relative-caret-position="34">
+          <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="28" />
           <folding>
-            <marker date="1516529887493" expanded="true" signature="0:1209" ph="/* InMemoryLoaderBaseNunit.cs ... */" />
-            <marker date="1516529887493" expanded="false" signature="1217:1261" ph="..." />
-            <marker date="1516529887493" expanded="true" signature="1296:2905" ph="{...}" />
-            <marker date="1516529887493" expanded="true" signature="1303:1377" ph="/// In memory loader base test class. ... " />
-            <marker date="1516529887493" expanded="true" signature="1438:2902" ph="{...}" />
-            <marker date="1516529887493" expanded="true" signature="1453:1575" ph="/// Gets the console culture. ... " />
-            <marker date="1516529887493" expanded="true" signature="1685:1807" ph="/// Gets the application key. ... " />
-            <marker date="1516529887493" expanded="true" signature="1917:2000" ph="/// AbstractPowerUpComponent Test Case ... " />
-            <marker date="1516529887493" expanded="true" signature="2061:2895" ph="{...}" />
-            <marker date="1516529887493" expanded="true" signature="2087:2797" ph="{...}" />
-            <marker date="1516529887493" expanded="true" signature="2834:2885" ph="{...}" />
+            <marker date="1516490153524" expanded="false" signature="0:1177" ph="/* AbstractComponent.cs ... */" />
+            <marker date="1516490153524" expanded="true" signature="1207:1640" ph="{...}" />
+            <marker date="1516490153524" expanded="true" signature="1297:1638" ph="{...}" />
+            <marker date="1516490153524" expanded="true" signature="1312:1389" ph="/// Fancy key to check in Init() ... " />
+            <marker date="1516490153524" expanded="true" signature="1566:1632" ph="{...}" />
           </folding>
         </state>
       </provider>
