@@ -57,9 +57,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="899a1d13-90f5-46aa-8ff2-d62189579390" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.InMemoryLoaderBase/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.InMemoryLoaderBase/.idea/contentModel.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.InMemoryLoaderBase/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.InMemoryLoaderBase/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/InMemoryLoaderBase/DynamicClassSetup.cs" afterPath="$PROJECT_DIR$/InMemoryLoaderBase/DynamicClassSetup.cs" />
+      <change beforePath="$PROJECT_DIR$/InMemoryLoaderBaseNunit/InMemoryLoaderBaseTests.cs" afterPath="$PROJECT_DIR$/InMemoryLoaderBaseNunit/InMemoryLoaderBaseTests.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -87,17 +85,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DynamicClassSetup.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DynamicClassSetup.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/InMemoryLoaderBase/DynamicClassSetup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="44" column="36" lean-forward="false" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+            <state relative-caret-position="494">
+              <caret line="47" column="1" lean-forward="false" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
               <folding>
                 <marker date="1516531079063" expanded="true" signature="0:1177" ph="/* DynamicClassSetup.cs ... */" />
                 <marker date="1516531079063" expanded="true" signature="1207:1686" ph="{...}" />
                 <marker date="1516531079063" expanded="true" signature="1214:1275" ph="/// Dynamic class setup. ... " />
                 <marker date="1516531079063" expanded="true" signature="1331:1683" ph="{...}" />
                 <marker date="1516531079063" expanded="true" signature="1346:1411" ph="/// The init method. ... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InMemoryLoaderBaseTests.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InMemoryLoaderBaseNunit/InMemoryLoaderBaseTests.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="409">
+              <caret line="68" column="63" lean-forward="true" selection-start-line="68" selection-start-column="63" selection-end-line="68" selection-end-column="63" />
+              <folding>
+                <marker date="1516533001056" expanded="true" signature="0:1209" ph="/* InMemoryLoaderBaseNunit.cs ... */" />
+                <marker date="1516533001056" expanded="false" signature="1217:1261" ph="..." />
+                <marker date="1516533001056" expanded="true" signature="1296:2725" ph="{...}" />
+                <marker date="1516533001056" expanded="true" signature="1303:1377" ph="/// In memory loader base test class. ... " />
+                <marker date="1516533001056" expanded="true" signature="1438:2722" ph="{...}" />
+                <marker date="1516533001056" expanded="true" signature="1453:1575" ph="/// Gets the console culture. ... " />
+                <marker date="1516533001056" expanded="true" signature="1685:1807" ph="/// Gets the application key. ... " />
+                <marker date="1516533001056" expanded="true" signature="1917:2000" ph="/// AbstractPowerUpComponent Test Case ... " />
+                <marker date="1516533001056" expanded="true" signature="2061:2715" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IDynamicClassInfo.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/InMemoryLoaderBase/IDynamicClassInfo.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding>
+                <marker date="1516490195736" expanded="false" signature="0:1177" ph="/* IDynamicClassInfo.cs ... */" />
+                <marker date="1516490195736" expanded="false" signature="1185:1217" ph="..." />
+                <marker date="1516490195736" expanded="true" signature="1247:1858" ph="{...}" />
+                <marker date="1516490195736" expanded="false" signature="1254:1295" ph="///  ... " />
+                <marker date="1516490195736" expanded="true" signature="1334:1856" ph="{...}" />
+                <marker date="1516490195736" expanded="false" signature="1349:1483" ph="/// Gets or sets the type of the class. ... " />
+                <marker date="1516490195736" expanded="false" signature="1530:1654" ph="/// Gets or sets the class object. ... " />
+                <marker date="1516490195736" expanded="false" signature="1705:1815" ph="/// Gets the methods. ... " />
               </folding>
             </state>
           </provider>
@@ -153,9 +190,9 @@
         <option value="$PROJECT_DIR$/InMemoryLoaderBase/HelperEnum/FileCompareMethod.cs" />
         <option value="$PROJECT_DIR$/InMemoryLoaderBase/HelperEnum/HashAlgorithmKind.cs" />
         <option value="$PROJECT_DIR$/InMemoryLoaderBase/HelperEnum/StringDirection.cs" />
-        <option value="$PROJECT_DIR$/InMemoryLoaderBaseNunit/InMemoryLoaderBaseTests.cs" />
         <option value="$PROJECT_DIR$/InMemoryLoaderBaseNunit/TestHelper.cs" />
         <option value="$PROJECT_DIR$/InMemoryLoaderBase/DynamicClassSetup.cs" />
+        <option value="$PROJECT_DIR$/InMemoryLoaderBaseNunit/InMemoryLoaderBaseTests.cs" />
       </list>
     </option>
   </component>
@@ -220,7 +257,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -277,7 +314,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7967000" />
+    <option name="totallyTimeSpent" value="8814000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -419,6 +456,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="31" column="8" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+          <folding>
+            <marker date="1516490195736" expanded="false" signature="0:1177" ph="/* IDynamicClassInfo.cs ... */" />
+            <marker date="1516490195736" expanded="false" signature="1185:1217" ph="..." />
+            <marker date="1516490195736" expanded="true" signature="1254:1295" ph="///  ... " />
+            <marker date="1516490195736" expanded="true" signature="1334:1856" ph="{...}" />
+            <marker date="1516490195736" expanded="true" signature="1349:1483" ph="/// Gets or sets the type of the class. ... " />
+            <marker date="1516490195736" expanded="true" signature="1530:1654" ph="/// Gets or sets the class object. ... " />
+            <marker date="1516490195736" expanded="true" signature="1705:1815" ph="/// Gets the methods. ... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -506,13 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/InMemoryLoaderBase/IDynamicClassInfo.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="31" column="8" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/InMemoryLoaderBase/IDynamicClassSetup.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -555,30 +594,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/InMemoryLoaderBaseNunit/InMemoryLoaderBaseTests.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/InMemoryLoaderBaseNunit/TestHelper.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
           <caret line="53" column="64" lean-forward="true" selection-start-line="53" selection-start-column="64" selection-end-line="53" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InMemoryLoaderBase/IAbstractComponent.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1516527946741" expanded="false" signature="0:1178" ph="/* IAbstractComponent.cs ... */" />
-            <marker date="1516527946741" expanded="true" signature="1209:1404" ph="{...}" />
-            <marker date="1516527946741" expanded="true" signature="1216:1341" ph="/// Requiered to create omponents and register them in the InMemoryLoader class registry ... " />
-            <marker date="1516527946741" expanded="true" signature="1381:1402" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -599,14 +618,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/InMemoryLoaderBase/DynamicClassSetup.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="44" column="36" lean-forward="false" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+        <state relative-caret-position="494">
+          <caret line="47" column="1" lean-forward="false" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
           <folding>
             <marker date="1516531079063" expanded="true" signature="0:1177" ph="/* DynamicClassSetup.cs ... */" />
             <marker date="1516531079063" expanded="true" signature="1207:1686" ph="{...}" />
             <marker date="1516531079063" expanded="true" signature="1214:1275" ph="/// Dynamic class setup. ... " />
             <marker date="1516531079063" expanded="true" signature="1331:1683" ph="{...}" />
             <marker date="1516531079063" expanded="true" signature="1346:1411" ph="/// The init method. ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InMemoryLoaderBase/IAbstractComponent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1516527946741" expanded="false" signature="0:1178" ph="/* IAbstractComponent.cs ... */" />
+            <marker date="1516527946741" expanded="true" signature="1209:1404" ph="{...}" />
+            <marker date="1516527946741" expanded="true" signature="1216:1341" ph="/// Requiered to create omponents and register them in the InMemoryLoader class registry ... " />
+            <marker date="1516527946741" expanded="true" signature="1381:1402" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InMemoryLoaderBaseNunit/InMemoryLoaderBaseTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="68" column="63" lean-forward="true" selection-start-line="68" selection-start-column="63" selection-end-line="68" selection-end-column="63" />
+          <folding>
+            <marker date="1516533001056" expanded="true" signature="0:1209" ph="/* InMemoryLoaderBaseNunit.cs ... */" />
+            <marker date="1516533001056" expanded="false" signature="1217:1261" ph="..." />
+            <marker date="1516533001056" expanded="true" signature="1296:2725" ph="{...}" />
+            <marker date="1516533001056" expanded="true" signature="1303:1377" ph="/// In memory loader base test class. ... " />
+            <marker date="1516533001056" expanded="true" signature="1438:2722" ph="{...}" />
+            <marker date="1516533001056" expanded="true" signature="1453:1575" ph="/// Gets the console culture. ... " />
+            <marker date="1516533001056" expanded="true" signature="1685:1807" ph="/// Gets the application key. ... " />
+            <marker date="1516533001056" expanded="true" signature="1917:2000" ph="/// AbstractPowerUpComponent Test Case ... " />
+            <marker date="1516533001056" expanded="true" signature="2061:2715" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InMemoryLoaderBase/IDynamicClassInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <marker date="1516490195736" expanded="false" signature="0:1177" ph="/* IDynamicClassInfo.cs ... */" />
+            <marker date="1516490195736" expanded="false" signature="1185:1217" ph="..." />
+            <marker date="1516490195736" expanded="true" signature="1254:1295" ph="///  ... " />
+            <marker date="1516490195736" expanded="true" signature="1334:1856" ph="{...}" />
+            <marker date="1516490195736" expanded="true" signature="1349:1483" ph="/// Gets or sets the type of the class. ... " />
+            <marker date="1516490195736" expanded="true" signature="1530:1654" ph="/// Gets or sets the class object. ... " />
+            <marker date="1516490195736" expanded="true" signature="1705:1815" ph="/// Gets the methods. ... " />
           </folding>
         </state>
       </provider>

@@ -52,28 +52,21 @@ namespace InMemoryLoaderBaseNunit
         [Test()]
         public void InMmoryLoaderBaseTest()
         {
-            try
-            {
-                var testHelper = new TestHelper();
-                var isInit = testHelper.Init(ApplicationKey);
-               
-                Assert.IsTrue(isInit);
+            var testHelper = new TestHelper();
+            var isInit = testHelper.Init(ApplicationKey);
+           
+            Assert.IsTrue(isInit);
 
-                var equals = string.Equals(ApplicationKey, testHelper.AppKey);
-                Assert.IsTrue(equals);
+            var equals = string.Equals(ApplicationKey, testHelper.AppKey);
+            Assert.IsTrue(equals);
 
-                Assert.IsNotEmpty(ConsoleCulture);
+            Assert.IsNotEmpty(ConsoleCulture);
 
-                Assert.IsTrue(testHelper.IterateDateInterval());
-                Assert.IsTrue(testHelper.IterateDateTimeAmPmType());
-                Assert.IsTrue(testHelper.IterateFileCompareMethod());
-                Assert.IsTrue(testHelper.IterateHashAlgorithmKind());
-                Assert.IsTrue(testHelper.IterateStringDirection());
-            }
-            catch (System.Exception)
-            {
-                throw;
-            }
+            Assert.IsTrue(testHelper.IterateDateInterval());
+            Assert.IsTrue(testHelper.IterateDateTimeAmPmType());
+            Assert.IsTrue(testHelper.IterateFileCompareMethod());
+            Assert.IsTrue(testHelper.IterateHashAlgorithmKind());
+            Assert.IsTrue(testHelper.IterateStringDirection());
         }
 
     }
