@@ -56,10 +56,7 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="899a1d13-90f5-46aa-8ff2-d62189579390" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/InMemoryLoaderBase/DynamicClassInfo.cs" afterPath="$PROJECT_DIR$/InMemoryLoaderBase/DynamicClassInfo.cs" />
-      <change beforePath="$PROJECT_DIR$/InMemoryLoaderBase/DynamicClassSetup.cs" afterPath="$PROJECT_DIR$/InMemoryLoaderBase/DynamicClassSetup.cs" />
-    </list>
+    <list default="true" id="899a1d13-90f5-46aa-8ff2-d62189579390" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -228,7 +225,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14834000" />
+    <option name="totallyTimeSpent" value="14876000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
