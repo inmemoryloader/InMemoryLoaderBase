@@ -31,9 +31,6 @@ namespace InMemoryLoaderBase
     /// <inheritdoc />
     public class DynamicClassInfo : IDynamicClassInfo
     {
-        /// <inheritdoc />
-        private static MethodInfo[] _methods;
-
         /// <summary>
         ///     Initializes a new instance of the <see cref="InMemoryLoaderBase.DynamicClassInfo" /> class.
         /// </summary>
@@ -61,7 +58,7 @@ namespace InMemoryLoaderBase
         /// <inheritdoc />
         public MethodInfo[] GetMethods()
         {
-            return _methods ?? (_methods = ClassType.GetMethods(BindingFlags.Public | BindingFlags.Instance));
+            return ClassType.GetMethods(BindingFlags.Public | BindingFlags.Instance);
         }
     }
 }
