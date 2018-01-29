@@ -29,6 +29,11 @@ namespace InMemoryLoaderBase
     public abstract class AbstractComponent : IAbstractComponent
     {
         /// <summary>
+        /// Initializes a new instance of the <see cref="T:InMemoryLoaderBase.AbstractComponent"/> class.
+        /// </summary>
+        protected AbstractComponent() { }
+
+        /// <summary>
         /// Fancy key to check in Init()
         /// </summary>
         public const string Key = "u5QfmfACqWmOclsedZdCA50TVijQVjendQ7ceeaxumAEcdKDjMrqOiWInN6d8f7p";
