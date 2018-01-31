@@ -10,7 +10,7 @@ using System.Reflection;
 [assembly: AssemblyProduct ("InMemoryLoader")]
 [assembly: AssemblyCopyright ("responsive IT")]
 [assembly: AssemblyTrademark ("responsive IT")]
-[assembly: AssemblyCulture ("en-US")]
+[assembly: AssemblyCulture ("en-GB")]
 
 // The assembly version has the format "{Major}.{Minor}.{Build}.{Revision}".
 // The form "{Major}.{Minor}.*" will automatically update the build and revision,
