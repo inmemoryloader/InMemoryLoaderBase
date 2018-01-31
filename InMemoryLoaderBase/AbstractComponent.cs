@@ -25,7 +25,7 @@
 
 namespace InMemoryLoaderBase
 {
-    /// <ingeritdoc />
+    /// <inheritdoc />
     public abstract class AbstractComponent : IAbstractComponent
     {
         /// <summary>

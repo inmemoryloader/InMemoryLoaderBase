@@ -25,9 +25,7 @@
 
 namespace InMemoryLoaderBase
 {
-    /// <summary>
-    ///     Dynamic class setup.
-    /// </summary>
+    /// <inheritdoc />
     public class DynamicClassSetup : IDynamicClassSetup
     {
         /// <summary>
@@ -35,13 +33,13 @@ namespace InMemoryLoaderBase
         /// </summary>
         readonly string _initMethod = "Init";
 
-        /// <ingeritdoc />
+        /// <inheritdoc />
         public string Assembly { get; set; }
 
-        /// <ingeritdoc />
+        /// <inheritdoc />
         public string Class { get; set; }
 
-        /// <ingeritdoc />
+        /// <inheritdoc />
         public string InitMethod => _initMethod;
     }
 }
