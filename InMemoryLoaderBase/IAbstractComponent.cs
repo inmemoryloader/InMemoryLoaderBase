@@ -1,9 +1,9 @@
 ﻿//
 // IAbstractComponent.cs
 //
-// Author: Kay Stuckenschmidt
+// Author: responsive kaysta
 //
-// Copyright (c) 2017 responsive-kaysta
+// Copyright (c) 2017 responsive kaysta
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -30,6 +30,11 @@ namespace InMemoryLoaderBase
     /// </summary>
     public interface IAbstractComponent
     {
-        
+        /// <summary>
+        /// Init the specified paramArgument.
+        /// </summary>
+        /// <returns>The init.</returns>
+        /// <param name="paramArgument">Parameter argument.</param>
+        bool Init (string paramArgument);
     }
 }

@@ -1,9 +1,9 @@
 ﻿//
 // IDynamicClassSetup.cs
 //
-// Author: Kay Stuckenschmidt
+// Author: responsive kaysta
 //
-// Copyright (c) 2017 responsive-kaysta
+// Copyright (c) 2017 responsive kaysta
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -34,24 +34,18 @@ namespace InMemoryLoaderBase
 		/// Gets or sets the assembly.
 		/// </summary>
 		/// <value>The assembly.</value>
-		string Assembly {
-			get;
-			set;
-		}
+        string Assembly { get; set; }
+
 		/// <summary>
 		/// Gets or sets the class.
 		/// </summary>
 		/// <value>The class.</value>
-		string Class {
-			get;
-			set;
-		}
+        string Class { get; set; }
+
 		/// <summary>
 		/// Gets the init method.
 		/// </summary>
 		/// <value>The init method.</value>
-		string InitMethod {
-			get;
-		}
+		string InitMethod { get; }
 	}
 }

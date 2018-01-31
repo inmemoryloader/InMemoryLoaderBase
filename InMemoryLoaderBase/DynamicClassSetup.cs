@@ -1,9 +1,9 @@
 ﻿//
 // DynamicClassSetup.cs
 //
-// Author: Kay Stuckenschmidt
+// Author: responsive kaysta
 //
-// Copyright (c) 2017 responsive-kaysta
+// Copyright (c) 2017 responsive kaysta
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -33,7 +33,7 @@ namespace InMemoryLoaderBase
         /// <summary>
         ///     The init method.
         /// </summary>
-        private readonly string _initMethod = "Init";
+        readonly string _initMethod = "Init";
 
         /// <ingeritdoc />
         public string Assembly { get; set; }

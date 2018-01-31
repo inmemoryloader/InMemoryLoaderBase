@@ -1,9 +1,9 @@
 ﻿//
 // AbstractComponent.cs
 //
-// Author: Kay Stuckenschmidt
+// Author: responsive kaysta
 //
-// Copyright (c) 2017 responsive-kaysta
+// Copyright (c) 2017 responsive kaysta
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -38,11 +38,7 @@ namespace InMemoryLoaderBase
         /// </summary>
         public const string Key = "u5QfmfACqWmOclsedZdCA50TVijQVjendQ7ceeaxumAEcdKDjMrqOiWInN6d8f7p";
 
-        /// <summary>
-        /// Requiered to initialize the component by checking againt paramArgument
-        /// </summary>
-        /// <param name="paramArgument"></param>
-        /// <returns>True if argument equals the key</returns>
+        /// <inheritdoc />
         public bool Init(string paramArgument)
         {
             return paramArgument.Equals(Key);

@@ -1,9 +1,9 @@
 ﻿//
 // DynamicClassInfo.cs
 //
-// Author: Kay Stuckenschmidt
+// Author: responsive kaysta
 //
-// Copyright (c) 2017 responsive-kaysta
+// Copyright (c) 2017 responsive kaysta
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -56,9 +56,6 @@ namespace InMemoryLoaderBase
         public object ClassObject { get; set; }
 
         /// <inheritdoc />
-        public MethodInfo[] GetMethods()
-        {
-            return ClassType.GetMethods(BindingFlags.Public | BindingFlags.Instance);
-        }
+        public MethodInfo[] GetMethods() => ClassType.GetMethods(BindingFlags.Public | BindingFlags.Instance);
     }
 }

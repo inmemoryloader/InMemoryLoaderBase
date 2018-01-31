@@ -32,7 +32,7 @@ namespace InMemoryLoaderBaseNunit
     /// <summary>
     /// Test helper.
     /// </summary>
-    internal class TestHelper : IAbstractComponent
+    internal class TestHelper : AbstractComponent
     {
         internal readonly string AppKey;
 
@@ -42,11 +42,6 @@ namespace InMemoryLoaderBaseNunit
         internal TestHelper ()
         {
             AppKey = AbstractComponent.Key;
-        }
-
-        internal bool Init (string paramArgument)
-        {
-            return AppKey.Equals (paramArgument);
         }
 
         internal bool IterateDateInterval ()
@@ -78,7 +73,6 @@ namespace InMemoryLoaderBaseNunit
             var values = Enum.GetValues (typeof (StringDirection));
             return values.Length > 1;
         }
-
     }
 
 }

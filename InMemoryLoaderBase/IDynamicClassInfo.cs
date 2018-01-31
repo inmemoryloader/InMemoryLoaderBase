@@ -1,9 +1,9 @@
 ﻿//
 // IDynamicClassInfo.cs
 //
-// Author: Kay Stuckenschmidt
+// Author: responsive kaysta
 //
-// Copyright (c) 2017 responsive-kaysta
+// Copyright (c) 2017 responsive kaysta
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -25,6 +25,7 @@
 
 using System;
 using System.Reflection;
+using System.Threading.Tasks;
 
 namespace InMemoryLoaderBase
 {
@@ -49,6 +50,6 @@ namespace InMemoryLoaderBase
         /// Gets the methods.
         /// </summary>
         /// <returns>The methods.</returns>
-        MethodInfo[] GetMethods();
+        MethodInfo [] GetMethods ();
     }
 }
