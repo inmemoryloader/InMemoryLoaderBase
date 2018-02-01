@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InMemoryLoaderBase", "InMemoryLoaderBase\InMemoryLoaderBase.csproj", "{55EC3AB9-DA4B-4888-8AA3-513F393FBFB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InMemoryLoaderBaseNunit", "InMemoryLoaderBaseNunit\InMemoryLoaderBaseNunit.csproj", "{8108C37C-B7D2-41B5-BCE6-3E3157065E5D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{55EC3AB9-DA4B-4888-8AA3-513F393FBFB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55EC3AB9-DA4B-4888-8AA3-513F393FBFB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55EC3AB9-DA4B-4888-8AA3-513F393FBFB1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8108C37C-B7D2-41B5-BCE6-3E3157065E5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8108C37C-B7D2-41B5-BCE6-3E3157065E5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8108C37C-B7D2-41B5-BCE6-3E3157065E5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8108C37C-B7D2-41B5-BCE6-3E3157065E5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0
@@ -72,23 +66,6 @@ Global
 		$9.NewParentheses = False
 		$9.SpacesBeforeBrackets = False
 		$9.scope = text/x-csharp
-		$9.IndentSwitchSection = True
-		$9.NewLinesForBracesInProperties = True
-		$9.NewLinesForBracesInAccessors = True
-		$9.NewLinesForBracesInAnonymousMethods = True
-		$9.NewLinesForBracesInControlBlocks = True
-		$9.NewLinesForBracesInAnonymousTypes = True
-		$9.NewLinesForBracesInObjectCollectionArrayInitializers = True
-		$9.NewLinesForBracesInLambdaExpressionBody = True
-		$9.NewLineForElse = True
-		$9.NewLineForCatch = True
-		$9.NewLineForFinally = True
-		$9.NewLineForMembersInObjectInit = True
-		$9.NewLineForMembersInAnonymousTypes = True
-		$9.NewLineForClausesInQuery = True
-		$9.SpacingAfterMethodDeclarationName = False
-		$9.SpaceAfterMethodCallName = False
-		$9.SpaceBeforeOpenSquareBracket = False
 		$0.TextStylePolicy = $10
 		$10.scope = text/plain
 		$0.TextStylePolicy = $11
