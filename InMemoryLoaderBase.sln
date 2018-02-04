@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InMemoryLoaderBase", "InMemoryLoaderBase\InMemoryLoaderBase.csproj", "{55EC3AB9-DA4B-4888-8AA3-513F393FBFB1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InMemoryLoaderBase.UnitTests", "InMemoryLoaderBase.UnitTests\InMemoryLoaderBase.UnitTests.csproj", "{D1BABF40-D016-4EA4-A418-F0C0D7C9BA55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{55EC3AB9-DA4B-4888-8AA3-513F393FBFB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55EC3AB9-DA4B-4888-8AA3-513F393FBFB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55EC3AB9-DA4B-4888-8AA3-513F393FBFB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1BABF40-D016-4EA4-A418-F0C0D7C9BA55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1BABF40-D016-4EA4-A418-F0C0D7C9BA55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1BABF40-D016-4EA4-A418-F0C0D7C9BA55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1BABF40-D016-4EA4-A418-F0C0D7C9BA55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0
