@@ -59,6 +59,7 @@
     <list default="true" id="899a1d13-90f5-46aa-8ff2-d62189579390" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.InMemoryLoaderBase/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.InMemoryLoaderBase/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.InMemoryLoaderBase/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.InMemoryLoaderBase/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/InMemoryLoaderBase.UnitTests/InMemoryLoaderBase.UnitTests.csproj" afterPath="$PROJECT_DIR$/InMemoryLoaderBase.UnitTests/InMemoryLoaderBase.UnitTests.csproj" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -69,7 +70,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AssemblyInfo.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AssemblyInfo.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/InMemoryLoaderBase/Properties/AssemblyInfo.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -84,6 +85,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Test.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/InMemoryLoaderBase.UnitTests/Test.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+              <folding>
+                <marker date="1517738412743" expanded="true" signature="62:271" ph="{...}" />
+                <marker date="1517738412743" expanded="true" signature="106:269" ph="{...}" />
+                <marker date="1517738412743" expanded="true" signature="160:263" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -93,6 +108,7 @@
     <setting file="file://$PROJECT_DIR$/InMemoryLoaderBase/IDynamicClassInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/InMemoryLoaderBase/DynamicClassSetup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/InMemoryLoaderBase/DynamicClassInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/InMemoryLoaderBase.UnitTests/Test.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/InMemoryLoaderBase/IDynamicClassSetup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/InMemoryLoaderBase/IAbstractComponent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/InMemoryLoaderBase/AbstractComponent.cs" root0="FORCE_HIGHLIGHTING" />
@@ -102,9 +118,6 @@
     <setting file="file://$PROJECT_DIR$/InMemoryLoaderBase/HelperEnum/DateInterval.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/InMemoryLoaderBase/HelperEnum/DateTimeAmPmType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/InMemoryLoaderBase/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/InMemoryLoaderBaseNunit/App.config" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/InMemoryLoaderBaseNunit/InMemoryLoaderBaseTests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/InMemoryLoaderBaseNunit/TestHelper.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -164,24 +177,20 @@
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="InMemoryLoaderBase (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="InMemoryLoaderBase" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="InMemoryLoaderBase.UnitTests" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="InMemoryLoaderBase (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="InMemoryLoaderBase" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="HelperEnum" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="InMemoryLoaderBase.UnitTests" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="References" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="InMemoryLoaderBase (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="InMemoryLoaderBase" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Properties" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="InMemoryLoaderBase (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="InMemoryLoaderBaseNunit" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="InMemoryLoaderBase.UnitTests" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="References" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assemblies" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -208,7 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected=".NET Project.Default">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -224,6 +233,9 @@
       <option name="PROJECT_KIND" value="None" />
       <option name="PROJECT_TFM" value="" />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue=".NET Project.Default" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -247,11 +259,12 @@
       <workItem from="1516559719697" duration="172000" />
       <workItem from="1517399426782" duration="810000" />
       <workItem from="1517401074089" duration="1894000" />
+      <workItem from="1517738435088" duration="130000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17710000" />
+    <option name="totallyTimeSpent" value="17840000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -268,15 +281,15 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="20" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2635432" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="20" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2677761" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="21" side_tool="false" content_ui="tabs" />
       <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="22" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="23" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="23" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -329,14 +342,7 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/InMemoryLoaderBaseNunit/TestHelper.cs</url>
           <line>43</line>
-          <properties documentPath="$PROJECT_DIR$/InMemoryLoaderBaseNunit/TestHelper.cs">
-            <startOffsets>
-              <startOffset value="1642" />
-            </startOffsets>
-            <endOffsets>
-              <endOffset value="1673" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/InMemoryLoaderBaseNunit/TestHelper.cs" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="1" />
@@ -344,6 +350,19 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/InMemoryLoaderBase/Properties/AssemblyInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1517403127967" expanded="false" signature="6:62" ph="..." />
+            <marker date="1517403127967" expanded="true" signature="64:193" ph="/* Information about this assembly is defined by the following attributes. ... */" />
+            <marker date="1517403127967" expanded="true" signature="641:865" ph="/* The assembly version has the format &quot;{Major}.{Minor}.{Build}.{Revision}&quot;. ... */" />
+            <marker date="1517403127967" expanded="true" signature="936:1095" ph="/* The following attributes are used to specify the signing key for the assembly, ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/InMemoryLoaderBase/Properties/AssemblyInfo.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -488,28 +507,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/InMemoryLoaderBaseNunit/InMemoryLoaderBaseTests.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InMemoryLoaderBaseNunit/App.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InMemoryLoaderBaseNunit/TestHelper.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="34" column="19" lean-forward="false" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/InMemoryLoaderBaseNunit/InMemoryLoaderBaseTests.cs" />
+    <entry file="file://$PROJECT_DIR$/InMemoryLoaderBaseNunit/App.config" />
+    <entry file="file://$PROJECT_DIR$/InMemoryLoaderBaseNunit/TestHelper.cs" />
     <entry file="file://$PROJECT_DIR$/InMemoryLoaderBase/IDynamicClassInfo.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -596,6 +596,18 @@
             <marker date="1517403127967" expanded="true" signature="64:193" ph="/* Information about this assembly is defined by the following attributes. ... */" />
             <marker date="1517403127967" expanded="true" signature="641:865" ph="/* The assembly version has the format &quot;{Major}.{Minor}.{Build}.{Revision}&quot;. ... */" />
             <marker date="1517403127967" expanded="true" signature="936:1095" ph="/* The following attributes are used to specify the signing key for the assembly, ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InMemoryLoaderBase.UnitTests/Test.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <marker date="1517738412743" expanded="true" signature="62:271" ph="{...}" />
+            <marker date="1517738412743" expanded="true" signature="106:269" ph="{...}" />
+            <marker date="1517738412743" expanded="true" signature="160:263" ph="{...}" />
           </folding>
         </state>
       </provider>
