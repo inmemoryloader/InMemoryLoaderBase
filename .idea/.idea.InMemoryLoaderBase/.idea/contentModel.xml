@@ -27,6 +27,8 @@
       </e>
       <e p="InMemoryLoaderBase.sln" t="IncludeFlat" />
       <e p="InMemoryLoaderBase.UnitTests" t="IncludeRecursive">
+        <e p="AbstractComponentHelper.cs" t="Include" />
+        <e p="App.config" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="InMemoryLoaderBase.UnitTests.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive" />

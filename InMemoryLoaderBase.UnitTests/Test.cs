@@ -34,8 +34,7 @@ namespace InMemoryLoaderBase.UnitTests
     [TestFixture()]
     public class Test
     {
-
-        string ApplicationKey => ConfigurationManager.AppSettings["ApplicationKey"];
+        private static string ApplicationKey { get; } = ConfigurationManager.AppSettings["ApplicationKey"];
 
         /// <summary>
         /// AbstractComponent test
@@ -44,13 +43,13 @@ namespace InMemoryLoaderBase.UnitTests
         public void AbstractComponentTest()
         {
             var component = new AbstractComponentHelper();
-            var key = AbstractComponent.Key;
+            const string key = AbstractComponent.Key;
 
-            var init_1 = component.Init(key);
-            var init_2 = component.Init(ApplicationKey);
+            var init1 = component.Init(key);
+            var init2 = component.Init(ApplicationKey);
 
-            Assert.IsTrue(init_1);
-            Assert.IsTrue(init_2);
+            Assert.IsTrue(init1);
+            Assert.IsTrue(init2);
             Assert.AreEqual(ApplicationKey, key);
         }
 
