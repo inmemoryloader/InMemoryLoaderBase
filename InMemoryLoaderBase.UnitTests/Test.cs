@@ -53,9 +53,6 @@ namespace InMemoryLoaderBase.UnitTests
             Assert.AreEqual(ApplicationKey, key);
         }
 
-
-
-
     }
 
 }
