@@ -11,7 +11,6 @@
 das dynamische Laden von .NET Assemblies zur Laufzeit ermöglicht.</Description>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <SignAssembly>true</SignAssembly>
-    <ReleaseVersion>1.0.*</ReleaseVersion>
   </PropertyGroup>
   <PropertyGroup>
     <AssemblyOriginatorKeyFile>InMemoryLoaderBase.snk</AssemblyOriginatorKeyFile>
