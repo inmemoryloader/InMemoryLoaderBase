@@ -1,9 +1,9 @@
 ﻿//
 // DynamicClassInfo.cs
 //
-// Author: Kay Stuckenschmidt <mailto.kaysta@gmail.com>
+// Author: responsive kaysta
 //
-// Copyright (c) 2017 responsive-kaysta
+// Copyright (c) 2017 responsive kaysta
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -28,60 +28,34 @@ using System.Reflection;
 
 namespace InMemoryLoaderBase
 {
-    /// <summary>
-    /// Dynamic class info object
-    /// </summary>
+    /// <inheritdoc />
     public class DynamicClassInfo : IDynamicClassInfo
     {
         /// <summary>
-        /// Gets or sets the type of the class.
-        /// </summary>
-        /// <value>The type of the class.</value>
-        public Type ClassType { get; set; }
-
-        /// <summary>
-        /// Gets or sets the class object.
-        /// </summary>
-        /// <value>The class object.</value>
-        public Object ClassObject { get; set; }
-
-        /// <summary>
-        /// Initializes a new instance of the <see cref="InMemoryLoaderBase.DynamicClassInfo"/> class.
+        ///     Initializes a new instance of the <see cref="InMemoryLoaderBase.DynamicClassInfo" /> class.
         /// </summary>
         public DynamicClassInfo()
         {
         }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="InMemoryLoaderBase.DynamicClassInfo"/> class.
+        ///     Initializes a new instance of the <see cref="InMemoryLoaderBase.DynamicClassInfo" /> class.
         /// </summary>
         /// <param name="paramType">Parameter type.</param>
         /// <param name="paramObject">Parameter object.</param>
-        public DynamicClassInfo(Type paramType, Object paramObject)
+        public DynamicClassInfo(Type paramType, object paramObject)
         {
             ClassType = paramType;
             ClassObject = paramObject;
         }
 
-        /// <summary>
-        /// The methods.
-        /// </summary>
-        static MethodInfo[] _methods;
+        /// <inheritdoc />
+        public Type ClassType { get; set; }
 
-        /// <summary>
-        /// Gets the methods.
-        /// </summary>
-        /// <value>The methods.</value>
-        public MethodInfo[] Methods
-        {
-            get
-            {
-                if (_methods == null)
-                {
-                    _methods = ClassType.GetMethods(BindingFlags.Public | BindingFlags.Instance);
-                }
-                return _methods;
-            }
-        }
+        /// <inheritdoc />
+        public object ClassObject { get; set; }
+
+        /// <inheritdoc />
+        public MethodInfo[] GetMethods() => ClassType.GetMethods(BindingFlags.Public | BindingFlags.Instance);
     }
 }

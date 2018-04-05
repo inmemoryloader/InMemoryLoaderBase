@@ -1,5 +1,5 @@
 ﻿//
-// IDynamicClassInfo.cs
+// IAbstractComponent.cs
 //
 // Author: responsive kaysta
 //
@@ -23,33 +23,18 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-using System;
-using System.Reflection;
-using System.Threading.Tasks;
-
-namespace InMemoryLoaderBase
+namespace InMemoryLoaderBase 
 {
     /// <summary>
-    /// 
+    /// Requiered to create omponents and register them in the InMemoryLoader class registry
     /// </summary>
-    public interface IDynamicClassInfo
+    public interface IAbstractComponent
     {
         /// <summary>
-        /// Gets or sets the type of the class.
+        /// Init the specified paramArgument.
         /// </summary>
-        /// <value>The type of the class.</value>
-        Type ClassType { get; set; }
-
-        /// <summary>
-        /// Gets or sets the class object.
-        /// </summary>
-        /// <value>The class object.</value>
-        Object ClassObject { get; set; }
-
-        /// <summary>
-        /// Gets the methods.
-        /// </summary>
-        /// <returns>The methods.</returns>
-        MethodInfo [] GetMethods ();
+        /// <returns>The init.</returns>
+        /// <param name="paramArgument">Parameter argument.</param>
+        bool Init (string paramArgument);
     }
 }

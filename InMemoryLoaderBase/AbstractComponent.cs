@@ -1,5 +1,5 @@
 ﻿//
-// IDynamicClassInfo.cs
+// AbstractComponent.cs
 //
 // Author: responsive kaysta
 //
@@ -23,33 +23,25 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-using System;
-using System.Reflection;
-using System.Threading.Tasks;
-
 namespace InMemoryLoaderBase
 {
-    /// <summary>
-    /// 
-    /// </summary>
-    public interface IDynamicClassInfo
+    /// <inheritdoc />
+    public abstract class AbstractComponent : IAbstractComponent
     {
         /// <summary>
-        /// Gets or sets the type of the class.
+        /// Initializes a new instance of the <see cref="T:InMemoryLoaderBase.AbstractComponent"/> class.
         /// </summary>
-        /// <value>The type of the class.</value>
-        Type ClassType { get; set; }
+        protected AbstractComponent() { }
 
         /// <summary>
-        /// Gets or sets the class object.
+        /// Fancy key to check in Init()
         /// </summary>
-        /// <value>The class object.</value>
-        Object ClassObject { get; set; }
+        public const string Key = "u5QfmfACqWmOclsedZdCA50TVijQVjendQ7ceeaxumAEcdKDjMrqOiWInN6d8f7p";
 
-        /// <summary>
-        /// Gets the methods.
-        /// </summary>
-        /// <returns>The methods.</returns>
-        MethodInfo [] GetMethods ();
+        /// <inheritdoc />
+        public bool Init(string paramArgument)
+        {
+            return paramArgument.Equals(Key);
+        }
     }
 }
