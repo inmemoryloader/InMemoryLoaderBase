@@ -43,5 +43,6 @@ namespace InMemoryLoaderBase
         {
             return paramArgument.Equals(Key);
         }
+
     }
 }
