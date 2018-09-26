@@ -34,7 +34,7 @@ namespace InMemoryLoaderBase
         protected AbstractComponent() { }
 
         /// <summary>
-        /// Fancy key to check in Init()
+        /// Fancy key to check Init()
         /// </summary>
         private const string Key = "u5QfmfACqWmOclsedZdCA50TVijQVjendQ7ceeaxumAEcdKDjMrqOiWInN6d8f7p";
 
