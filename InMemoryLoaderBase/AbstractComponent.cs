@@ -34,14 +34,15 @@ namespace InMemoryLoaderBase
         protected AbstractComponent() { }
 
         /// <summary>
-        /// Fancy key to check in Init()
+        /// Fancy key to check Init()
         /// </summary>
-        public const string Key = "u5QfmfACqWmOclsedZdCA50TVijQVjendQ7ceeaxumAEcdKDjMrqOiWInN6d8f7p";
+        private const string Key = "u5QfmfACqWmOclsedZdCA50TVijQVjendQ7ceeaxumAEcdKDjMrqOiWInN6d8f7p";
 
         /// <inheritdoc />
         public bool Init(string paramArgument)
         {
             return paramArgument.Equals(Key);
         }
+
     }
 }

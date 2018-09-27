@@ -44,7 +44,7 @@ namespace InMemoryLoaderBase
         /// Gets or sets the class object.
         /// </summary>
         /// <value>The class object.</value>
-        Object ClassObject { get; set; }
+        object ClassObject { get; set; }
 
         /// <summary>
         /// Gets the methods.
