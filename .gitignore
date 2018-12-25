@@ -84,3 +84,7 @@ InMemoryLoaderBaseNunit/bin/Debug/InMemoryLoaderBase\.xml
 *.dll
 
 InMemoryLoaderBase\.UnitTests/bin/Debug/InMemoryLoaderBase\.UnitTests\.dll\.config
+
+InMemoryLoaderBase/bin/Debug/
+
+packages/
