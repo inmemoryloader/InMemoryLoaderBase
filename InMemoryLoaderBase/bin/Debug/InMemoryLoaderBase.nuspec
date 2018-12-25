@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata minClientVersion="">
+    <id>InMemoryLoaderBase</id>
+    <version>1.0.6669.34527</version>
+    <title>Im Wesentlichen besteht InMemoryLoader aus zwei nuget-Packages die mit Mono entwickelt wurden und so über Plattformgrenzen hinweg verwendet werden können.</title>
+    <authors>responsive kaysta</authors>
+    <owners>responsive kaysta</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://de.wikipedia.org/wiki/MIT-Lizenz</licenseUrl>
+    <projectUrl>https://blog.responsive-kaysta.ch/post/inmemoryloader</projectUrl>
+    <description>InMemoryLoader ist eine in C# geschriebene Funktionsbibliothek welche 
+das dynamische Laden von .NET Assemblies zur Laufzeit ermöglicht.</description>
+    <summary>InMemoryLoader ermöglicht das Laden von .Dll's zur Laufzeit ohne fixe Referenzen in der Solution zu benötigen. Hierbei werden die .Dll’s einmalig geladen und geprüft, in eine Collection geschrieben und zur Laufzeit einmalig instanziiert.</summary>
+    <releaseNotes></releaseNotes>
+    <copyright></copyright>
+    <language></language>
+    <tags></tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.7">
+        <dependency id="log4net" version="2.0.8" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Configuration" targetFramework=".NETFramework4.7" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.7" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.7" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="/root/Dev/InMemoryLoaderBase/InMemoryLoaderBase/bin/Debug/InMemoryLoaderBase.dll" target="lib/net47/InMemoryLoaderBase.dll" />
+    <file src="/root/Dev/InMemoryLoaderBase/InMemoryLoaderBase/bin/Debug/InMemoryLoaderBase.pdb" target="lib/net47/InMemoryLoaderBase.pdb" />
+  </files>
+</package>
