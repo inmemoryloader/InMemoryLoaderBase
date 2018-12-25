@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\packages\NuGet.Build.Packaging.0.2.0\build\NuGet.Build.Packaging.props" Condition="Exists('..\packages\NuGet.Build.Packaging.0.2.0\build\NuGet.Build.Packaging.props')" />
+  <Import Project="..\packages\NuGet.Build.Packaging.0.2.2\build\NuGet.Build.Packaging.props" Condition="Exists('..\packages\NuGet.Build.Packaging.0.2.2\build\NuGet.Build.Packaging.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -13,7 +13,7 @@ das dynamische Laden von .NET Assemblies zur Laufzeit ermöglicht.</Description>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <ReleaseVersion>1.0.*</ReleaseVersion>
     <PackageId>InMemoryLoaderBase</PackageId>
-    <PackageVersion>1.0.6669.34527</PackageVersion>
+    <PackageVersion>1.0.6669.34528</PackageVersion>
     <Authors>responsive kaysta</Authors>
     <Owners>responsive kaysta</Owners>
     <PackageProjectUrl>https://blog.responsive-kaysta.ch/post/inmemoryloader</PackageProjectUrl>
@@ -22,9 +22,7 @@ das dynamische Laden von .NET Assemblies zur Laufzeit ermöglicht.</Description>
     <PackOnBuild>true</PackOnBuild>
     <PackageLicenseUrl>https://de.wikipedia.org/wiki/MIT-Lizenz</PackageLicenseUrl>
   </PropertyGroup>
-  <PropertyGroup>
-    <AssemblyOriginatorKeyFile>InMemoryLoaderBase.snk</AssemblyOriginatorKeyFile>
-  </PropertyGroup>
+  
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <Optimize>true</Optimize>
     <OutputPath>bin\Debug</OutputPath>
@@ -75,5 +73,5 @@ das dynamische Laden von .NET Assemblies zur Laufzeit ermöglicht.</Description>
       </Properties>
     </MonoDevelop>
   </ProjectExtensions>
-  <Import Project="..\packages\NuGet.Build.Packaging.0.2.0\build\NuGet.Build.Packaging.targets" Condition="Exists('..\packages\NuGet.Build.Packaging.0.2.0\build\NuGet.Build.Packaging.targets')" />
+  <Import Project="..\packages\NuGet.Build.Packaging.0.2.2\build\NuGet.Build.Packaging.targets" Condition="Exists('..\packages\NuGet.Build.Packaging.0.2.2\build\NuGet.Build.Packaging.targets')" />
 </Project>
