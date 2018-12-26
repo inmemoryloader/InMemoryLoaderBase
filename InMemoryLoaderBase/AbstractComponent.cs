@@ -36,7 +36,7 @@ namespace InMemoryLoaderBase
         /// <summary>
         /// Fancy key to check Init()
         /// </summary>
-        private const string Key = "u5QfmfACqWmOclsedZdCA50TVijQVjendQ7ceeaxumAEcdKDjMrqOiWInN6d8f7p";
+        protected const string Key = "u5QfmfACqWmOclsedZdCA50TVijQVjendQ7ceeaxumAEcdKDjMrqOiWInN6d8f7p";
 
         /// <inheritdoc />
         public bool Init(string paramArgument)
