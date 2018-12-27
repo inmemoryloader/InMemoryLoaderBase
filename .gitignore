@@ -65,26 +65,14 @@ publish/
 *.publishproj
 
 # The packages folder can be ignored because of Package Restore
-# **/packages/*
+ **/packages/*
 # except build/, which is used as an MSBuild target.
-# !**/packages/build/
+ !**/packages/build/
 # Uncomment if necessary however generally it will be regenerated when needed
-# !**/packages/repositories.config
-
-InMemoryLoaderBase/bin/Debug/log4net.xml
-InMemoryLoaderBase/bin/Debug/log4net.dll
-InMemoryLoaderBase/bin/Debug/InMemoryLoaderBase.xml
-InMemoryLoaderBase/bin/Debug/InMemoryLoaderBase.dll
-InMemoryLoaderBaseNunit/bin/Debug/InMemoryLoaderBaseNunit.xml
-
-InMemoryLoaderBaseNunit/bin/Debug/InMemoryLoaderBase\.xml
-
-*.pdb
+ !**/packages/repositories.config
 
 *.dll
-
-InMemoryLoaderBase\.UnitTests/bin/Debug/InMemoryLoaderBase\.UnitTests\.dll\.config
-
-InMemoryLoaderBase/bin/Debug/
-
+*.pdb
+*.nupkg
 packages/
+*sonarqube*
