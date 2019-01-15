@@ -1,8 +1,8 @@
 ﻿// -------------------------------------------------------------------------------------------------------------------
-// Filename: AbstractComponent.cs
+// Filename: LICENSE.md
 // Author: Kay Stuckenschmidt
 //
-// Copyright (c) 2019 responsive IT
+// Copyright (c) 2019 responsive IT <dev-guru@responsive-it.biz>
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -22,20 +22,3 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 // -------------------------------------------------------------------------------------------------------------------
-
-namespace InMemoryLoaderBase
-{
-    public abstract class AbstractComponent : IAbstractComponent
-    {
-        protected AbstractComponent() { }
-
-        public const string Key = "u5QfmfACqWmOclsedZdCA50TVijQVjendQ7ceeaxumAEcdKDjMrqOiWInN6d8f7p";
-
-        public bool Init(string paramArgument)
-        {
-            return paramArgument.Equals(Key);
-        }
-
-    }
-
-}
