@@ -25,12 +25,18 @@
 
 namespace InMemoryLoaderBase
 {
+    /// <inheritdoc />
     public abstract class AbstractComponent : IAbstractComponent
     {
-        protected AbstractComponent() { }
+        /// <inheritdoc />
+        protected AbstractComponent () { }
 
+       /// <summary>
+       /// The default key, used to initialize a class instance
+       /// </summary>
         public const string Key = "u5QfmfACqWmOclsedZdCA50TVijQVjendQ7ceeaxumAEcdKDjMrqOiWInN6d8f7p";
 
+        /// <inheritdoc />
         public bool Init(string paramArgument)
         {
             return paramArgument.Equals(Key);
