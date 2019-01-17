@@ -1,49 +1,24 @@
-# *.nupkg
-# packages/
-# bin/
 obj/
 .vs/
-
-# User-specific files
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
-
-# User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
-
-# Visual Studo 2015 cache/options directory
 .vs/
-
-# MSTest test Results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
-
-# NUNIT
 *.VisualState.xml
 TestResult.xml
-
-# Visual Studio profiler
 *.psess
 *.vsp
 *.vspx
-
-# TFS 2012 Local Workspace
 $tf/
-
-# ReSharper is a .NET coding add-in
 _ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
-
-# TeamCity is a build add-in
 _TeamCity*
-
-# DotCover is a Code Coverage Tool
 *.dotCover
-
-# DocProject is a documentation generator add-in
 DocProject/buildhelp/
 DocProject/Help/*.HxT
 DocProject/Help/*.HxC
@@ -52,25 +27,14 @@ DocProject/Help/*.hhk
 DocProject/Help/*.hhp
 DocProject/Help/Html2
 DocProject/Help/html
-
-# Click-Once directory
 publish/
-
-# Publish Web Output
 *.[Pp]ublish.xml
 *.azurePubxml
-# TODO: Comment the next line if you want to checkin your web deploy settings 
-# but database connection strings (with potential passwords) will be unencrypted
 *.pubxml
 *.publishproj
-
-# The packages folder can be ignored because of Package Restore
  **/packages/*
-# except build/, which is used as an MSBuild target.
  !**/packages/build/
-# Uncomment if necessary however generally it will be regenerated when needed
  !**/packages/repositories.config
-
 *.dll
 *.pdb
 *.nupkg
