@@ -1,9 +1,8 @@
-﻿//
-// IDynamicClassInfo.cs
+﻿// -------------------------------------------------------------------------------------------------------------------
+// Filename: IDynamicClassSetup.cs
+// Author: Kay Stuckenschmidt
 //
-// Author: responsive kaysta
-//
-// Copyright (c) 2017 responsive kaysta
+// Copyright (c) 2019 responsive IT
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -22,34 +21,35 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
+// -------------------------------------------------------------------------------------------------------------------
 
 using System;
 using System.Reflection;
-using System.Threading.Tasks;
 
 namespace InMemoryLoaderBase
 {
     /// <summary>
-    /// 
+    /// The initialized object which is stored in the ClassRegistry
     /// </summary>
     public interface IDynamicClassInfo
     {
         /// <summary>
-        /// Gets or sets the type of the class.
+        /// The full type
         /// </summary>
         /// <value>The type of the class.</value>
         Type ClassType { get; set; }
 
         /// <summary>
-        /// Gets or sets the class object.
+        /// The initialized class object
         /// </summary>
         /// <value>The class object.</value>
         object ClassObject { get; set; }
 
         /// <summary>
-        /// Gets the methods.
+        /// The public, usable methods
         /// </summary>
         /// <returns>The methods.</returns>
         MethodInfo [] GetMethods ();
     }
+
 }
