@@ -1,8 +1,8 @@
-﻿// -------------------------------------------------------------------------------------------------------------------
-// Filename: IDynamicClassSetup.cs
+﻿// -------------------------------------------------------------------------------
+// Filename: LICENSE.md
 // Author: Kay Stuckenschmidt
 //
-// Copyright (c) 2019 responsive IT
+// Copyright (c) 2019 responsive IT <dev-guru@responsive-it.biz>
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -21,32 +21,4 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
-// -------------------------------------------------------------------------------------------------------------------
-
-namespace InMemoryLoaderBase
-{
-    /// <summary>
-    /// This interface is needed to initialize and instatiate an InMemoryLoader-Component
-    /// </summary>
-	public interface IDynamicClassSetup
-	{
-        /// <summary>
-        /// Full path of the assembly
-        /// </summary>
-        /// <value>The assembly.</value>
-        string Assembly { get; set; }
-
-        /// <summary>
-        /// The class used as a component
-        /// </summary>
-        /// <value>The class.</value>
-        string Class { get; set; }
-
-        /// <summary>
-        /// The init method, usualy Init
-        /// </summary>
-        /// <value>The init method.</value>
-		string InitMethod { get; }
-	}
-
-}
+// -------------------------------------------------------------------------------

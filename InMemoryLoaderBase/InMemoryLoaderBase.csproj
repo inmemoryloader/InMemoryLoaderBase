@@ -27,8 +27,6 @@
     <OutputPath>bin\Debug</OutputPath>
     <WarningLevel>4</WarningLevel>
     <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
-    <DocumentationFile>
-    </DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <Optimize>false</Optimize>
@@ -62,6 +60,8 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
+    <None Include="LICENSE.md" />
+    <None Include="README.md" />
   </ItemGroup>
   <ProjectExtensions>
     <MonoDevelop>

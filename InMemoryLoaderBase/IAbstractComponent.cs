@@ -1,9 +1,8 @@
-﻿//
-// IAbstractComponent.cs
+﻿// -------------------------------------------------------------------------------------------------------------------
+// Filename: IAbstractComponent.cs
+// Author: Kay Stuckenschmidt
 //
-// Author: responsive kaysta
-//
-// Copyright (c) 2017 responsive kaysta
+// Copyright (c) 2019 responsive IT
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -22,19 +21,21 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
+// -------------------------------------------------------------------------------------------------------------------
 
 namespace InMemoryLoaderBase 
 {
     /// <summary>
-    /// Requiered to create omponents and register them in the InMemoryLoader class registry
+    /// Interface used to "create" an InMemoryLoader-Component
     /// </summary>
     public interface IAbstractComponent
     {
         /// <summary>
-        /// Init the specified paramArgument.
+        /// The init method which compares the given key with the one stored in the Abstract class
         /// </summary>
         /// <returns>The init.</returns>
         /// <param name="paramArgument">Parameter argument.</param>
         bool Init (string paramArgument);
     }
+
 }

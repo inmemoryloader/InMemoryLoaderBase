@@ -4,7 +4,7 @@ using System.Reflection;
 // Information about this assembly is defined by the following attributes.
 // Change them to the values specific to your project.
 [assembly: AssemblyTitle ("InMemoryLoaderBase")]
-[assembly: AssemblyDescription ("InMemoryLoaderBase library, used to implement powerfull .NET InMemoryLoader applications.")]
+[assembly: AssemblyDescription ("Basis-Komponente die zwingend als Basis-Klasse implementiert werden muss. Sie dient der Initialisierung, enthält ansonsten keinerlei notwendige Funktion.")]
 [assembly: AssemblyCompany ("responsive IT")]
 [assembly: AssemblyProduct ("InMemoryLoader")]
 [assembly: AssemblyCopyright ("responsive IT")]
