@@ -40,3 +40,5 @@ publish/
 *.nupkg
 packages/
 *sonarqube*
+
+InMemoryLoaderBase/bin/Debug/
