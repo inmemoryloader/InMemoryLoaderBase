@@ -14,6 +14,3 @@ Basis-Komponente die zwingend als Basis-Klasse implementiert werden muss. Sie di
 ## Release 1.0
 
 Major-Release
-
-
-
