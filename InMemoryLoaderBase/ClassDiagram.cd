@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="InMemoryLoaderBase.AbstractComponent">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>AbstractComponent.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="InMemoryLoaderBase.IAbstractComponent">
+    <Position X="3" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>IAbstractComponent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="InMemoryLoaderBase.IDynamicClassInfo">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>IDynamicClassInfo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="InMemoryLoaderBase.IDynamicClassSetup">
+    <Position X="7.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAIQAAAAAAAAAAAA=</HashCode>
+      <FileName>IDynamicClassSetup.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="InMemoryLoaderBase.HelperEnum.DateInterval">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACQAAAAQAAAAAAAAAAAIAAEQAABAAAAAAE=</HashCode>
+      <FileName>HelperEnum\DateInterval.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="InMemoryLoaderBase.HelperEnum.DateTimeAmPmType">
+    <Position X="2.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACACAAAEAAAA=</HashCode>
+      <FileName>HelperEnum\DateTimeAmPmType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="InMemoryLoaderBase.HelperEnum.FileCompareMethod">
+    <Position X="4.75" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAEA=</HashCode>
+      <FileName>HelperEnum\FileCompareMethod.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="InMemoryLoaderBase.HelperEnum.HashAlgorithmKind">
+    <Position X="7" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACBQIEAEAAAAAAEAAAkAIAIgAAAAAAAAEIAABEgABAA=</HashCode>
+      <FileName>HelperEnum\HashAlgorithmKind.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="InMemoryLoaderBase.HelperEnum.StringDirection">
+    <Position X="9.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAA=</HashCode>
+      <FileName>HelperEnum\StringDirection.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
