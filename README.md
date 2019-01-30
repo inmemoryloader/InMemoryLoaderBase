@@ -22,6 +22,8 @@ Bei einer Anwendung kann zuerst die Rolle des Benutzers abgefragt werden und dan
 ### InMemoryLoaderBase
 Komponente mit Interfaces und Abstract Classes die zur Implementierung von InMemoryLoader Anwendungen verwendet werden müssen. Dient der Initialisierung und Instanziierung, enthalten ansonsten keinerlei notwendige Funktionen.
 
+[InMemoryLoaderBase WIKI](https://github.com/responsive-kaysta/InMemoryLoaderBase/wiki) 
+
 ### InMemoryLoader
 Der Kern einer InMemoryLoader-Anwendung, enthält alle benötigten Methoden und Properties die zum Aufbau benötigt werden.
 
