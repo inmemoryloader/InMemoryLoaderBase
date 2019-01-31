@@ -48,5 +48,4 @@ namespace InMemoryLoaderBase
         /// <value>The init method.</value>
 		string InitMethod { get; }
 	}
-
 }
