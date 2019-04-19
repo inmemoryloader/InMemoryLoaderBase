@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="InMemoryLoaderBase.AbstractComponent" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>AbstractComponent.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="InMemoryLoaderBase.DynamicClassInfo" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="1.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>DynamicClassInfo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="InMemoryLoaderBase.DynamicClassSetup" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAIQAAAAAAAAAAAA=</HashCode>
+      <FileName>DynamicClassSetup.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="InMemoryLoaderBase.IAbstractComponent">
+    <Position X="0.5" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>IAbstractComponent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="InMemoryLoaderBase.IDynamicClassInfo">
+    <Position X="2.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>IDynamicClassInfo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="InMemoryLoaderBase.IDynamicClassSetup">
+    <Position X="5.75" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAIQAAAAAAAAAAAA=</HashCode>
+      <FileName>IDynamicClassSetup.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
